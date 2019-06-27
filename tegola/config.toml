@@ -59,7 +59,7 @@ ssl_mode = "allow"
 
 [[maps]]
 name = "Byggeri og planlægning"
-center = [55.68115, 12.52358, 13.0]
+center = [12.52358, 55.68115, 13.0]
 
   [[maps.layers]]
   name = "Bevarede lokalplaner"
