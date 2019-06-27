@@ -61,6 +61,7 @@ ssl_mode = "allow"
 name = "Byggeri og planlægning"
 
   [[maps.layers]]
+  name = "Bevarede lokalplaner"
   provider_layer = "db1.bevarede_lokalplaner"
   min_zoom = 10
   max_zoom = 20
