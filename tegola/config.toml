@@ -18,7 +18,7 @@ srid = 3857                 # The default srid for this provider. If not provide
 ssl_mode = "allow"
 
   [[providers.layers]]
-  #name = "bevarede_lokalplaner"
+  name = "bevarede_lokalplaner"
   tablename = "bevarende_lokalplaner"
 
   [[providers.layers]]
