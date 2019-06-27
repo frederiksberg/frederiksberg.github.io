@@ -7,14 +7,14 @@ basepath="/tmp/tegola"  # cache specific config
 
 # register data providers
 [[providers]]
-name = "db1"           # provider name is referenced from map layers
-type = "postgis"        # the type of data provider. currently only supports postgis
-host = "xx"      # postgis database host
-port =  25060            # postgis database port
-database = "xx"       # postgis database name
-user = "xx"         # postgis database user
-password = "xx"           # postgis database password
-srid = 3857             # The default srid for this provider. If not provided it will be WebMercator (3857)
+name = "db1"                # provider name is referenced from map layers
+type = "postgis"            # the type of data provider. currently only supports postgis
+host = "${POSTGIS_HOST}"    # postgis database host
+port = "${POSTGIS_PORT}"    # postgis database port
+database = "${POSTGIS_DB}"  # postgis database name
+user = "${POSTGIS_USER}"    # postgis database user
+password = "${POSTGIS_PW}"  # postgis database password
+srid = 3857                 # The default srid for this provider. If not provided it will be WebMercator (3857)
 ssl_mode = "allow"
 
   [[providers.layers]]
@@ -38,8 +38,24 @@ ssl_mode = "allow"
   tablename = "lokalplaner_forslag"
 
   [[providers.layers]]
+  name = "fredet_bevaringsvaerdig_bygning"
+  tablename = "fredet_bevaringsvaerdig_bygning"
+
+  [[providers.layers]]
   name = "temalokalplaner"
   tablename = "temalokalplaner"
+
+  [[providers.layers]]
+  name = "jordforurening"
+  tablename = "jordforurening"
+
+  [[providers.layers]]
+  name = "matrikel"
+  tablename = "matrikel"
+
+  [[providers.layers]]
+  name = "nedsivning_potentiale"
+  tablename = "nedsivning_potentiale"
 
 [[maps]]
 name = "Byggeri og planlægning"
@@ -71,5 +87,25 @@ name = "Byggeri og planlægning"
 
   [[maps.layers]]
   provider_layer = "db1.temalokalplaner"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  provider_layer = "db1.fredet_bevaringsvaerdig_bygning"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  provider_layer = "db1.jordforurening"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  provider_layer = "db1.matrikel"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  provider_layer = "db1.nedsivning_potentiale"
   min_zoom = 10
   max_zoom = 20
