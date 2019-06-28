@@ -62,52 +62,61 @@ name = "Byggeri og planlægning"
 center = [12.52358, 55.68115, 13.0]
 
   [[maps.layers]]
-  name = "Bevarede lokalplaner"
+  name = "Bevarende lokalplaner"
   provider_layer = "db1.bevarede_lokalplaner"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Kommuneplanrammer"
   provider_layer = "db1.kommuneplanrammer"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Kommuneplantillæg"
   provider_layer = "db1.kommuneplantillaeg"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Lokalplaner"
   provider_layer = "db1.lokalplan"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Lokalplan forslag"
   provider_layer = "db1.lokalplaner_forslag"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Temalokalokalplaner"
   provider_layer = "db1.temalokalplaner"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Fredede og bevaringsværdige bygninger"
   provider_layer = "db1.fredet_bevaringsvaerdig_bygning"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Jordforurening"
   provider_layer = "db1.jordforurening"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Matrikler"
   provider_layer = "db1.matrikel"
   min_zoom = 10
   max_zoom = 20
 
   [[maps.layers]]
+  name = "Nedsivningspotentiale"
   provider_layer = "db1.nedsivning_potentiale"
   min_zoom = 10
   max_zoom = 20
