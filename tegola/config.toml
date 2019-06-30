@@ -15,7 +15,8 @@ database = "${POSTGIS_DB}"  # postgis database name
 user = "${POSTGIS_USER}"    # postgis database user
 password = "${POSTGIS_PW}"  # postgis database password
 srid = 3857                 # The default srid for this provider. If not provided it will be WebMercator (3857)
-ssl_mode = "allow"
+max_connections = 50        # There's configured 50 connections in the pool for this DB in DO
+ssl_mode = "require"
 
   [[providers.layers]]
   name = "bevarede_lokalplaner"
