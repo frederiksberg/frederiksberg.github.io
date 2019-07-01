@@ -35,10 +35,6 @@ ssl_mode = "require"
   tablename = "fredet_bevaringsvaerdig_bygning"
 
   [[providers.layers]]
-  name = "tegola_config"
-  tablename = "tegola_config"
-
-  [[providers.layers]]
   name = "lokalplan"
   tablename = "lokalplan"
 
