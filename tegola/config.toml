@@ -18,6 +18,10 @@ srid = 3857                 # The default srid for this provider. If not provide
 max_connections = 50        # There's configured 50 connections in the pool for this DB in DO
 ssl_mode = "require"
 
+
+# ----------------
+# BYG & PLANLÆGNING
+# ----------------
   [[providers.layers]]
   name = "matrikel"
   tablename = "matrikel"
@@ -61,7 +65,11 @@ ssl_mode = "require"
   [[providers.layers]]
   name = "raadighedsareal"
   tablename = "raadighedsareal"
-
+  
+  
+#----------------
+# BØRN OG UNGE
+#----------------
   [[providers.layers]]
   name = "skoledistrikter_0_5"
   tablename = "skoledistrikter_0_5"
@@ -101,7 +109,43 @@ ssl_mode = "require"
   [[providers.layers]]
   name = "multibaner"
   tablename = "multibaner"
+  
+  
+#----------------
+# KULTUR
+#----------------
+  [[providers.layers]]
+  name = "offentlige_toiletter"
+  tablename = "offentlige_toiletter"
 
+  [[providers.layers]]
+  name = "valgdistrikter"
+  tablename = "valgdistrikter"
+
+  [[providers.layers]]
+  name = "skulptur"
+  tablename = "skulptur"
+
+  [[providers.layers]]
+  name = "bibliotek"
+  tablename = "bibliotek"
+
+  [[providers.layers]]
+  name = "kultursteder"
+  tablename = "kultursteder"
+
+  [[providers.layers]]
+  name = "sevaerdighed"
+  tablename = "sevaerdighed"
+
+  [[providers.layers]]
+  name = "kirkegaarde"
+  tablename = "kirkegaarde"
+
+
+# ----------------
+# BYG & PLANLÆGNING
+# ----------------
 [[maps]]
 name = "Byggeri og planlægning"
 center = [12.52358, 55.68115, 13.0]
@@ -172,6 +216,10 @@ center = [12.52358, 55.68115, 13.0]
   min_zoom = 10
   max_zoom = 20
 
+
+#----------------
+# BØRN OG UNGE
+#----------------
 [[maps]]
 name = "Børn og unge"
 center = [12.52358, 55.68115, 13.0]
@@ -233,5 +281,55 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Skoledistrikter 6.-9. klasse (2016/17)"
   provider_layer = "db1.skoledistrikter_6_9"
+  min_zoom = 10
+  max_zoom = 20
+
+
+# -------------
+# KULTUR
+# -------------
+[[maps]]
+name = "Kultur"
+center = [12.52358, 55.68115, 13.0]
+
+  [[maps.layers]]
+  name = "Biblioteker"
+  provider_layer = "db1.bibliotek"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Kultursteder"
+  provider_layer = "db1.kultursteder"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Seværdigheder"
+  provider_layer = "db1.sevaerdighed"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Skulpturer"
+  provider_layer = "db1.skulptur"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Kirkegårde"
+  provider_layer = "db1.kirkegaarde"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Offentlige toiletter"
+  provider_layer = "db1.offentlige_toiletter"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Valgdistrikter"
+  provider_layer = "db1.valgdistrikter"
   min_zoom = 10
   max_zoom = 20
