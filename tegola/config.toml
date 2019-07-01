@@ -108,7 +108,7 @@ center = [12.52358, 55.68115, 13.0]
 
   [[maps.layers]]
   name = "Bevarende lokalplaner"
-  provider_layer = "db1.bevarede_lokalplaner"
+  provider_layer = "db1.bevarende_lokalplaner"
   min_zoom = 10
   max_zoom = 20
 
