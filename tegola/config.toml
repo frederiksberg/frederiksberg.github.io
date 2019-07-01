@@ -19,8 +19,40 @@ max_connections = 50        # There's configured 50 connections in the pool for 
 ssl_mode = "require"
 
   [[providers.layers]]
-  name = "bevarede_lokalplaner"
+  name = "matrikel"
+  tablename = "matrikel"
+
+  [[providers.layers]]
+  name = "jordforurening"
+  tablename = "jordforurening"
+
+  [[providers.layers]]
+  name = "nedsivning_potentiale"
+  tablename = "nedsivning_potentiale"
+
+  [[providers.layers]]
+  name = "fredet_bevaringsvaerdig_bygning"
+  tablename = "fredet_bevaringsvaerdig_bygning"
+
+  [[providers.layers]]
+  name = "tegola_config"
+  tablename = "tegola_config"
+
+  [[providers.layers]]
+  name = "lokalplan"
+  tablename = "lokalplan"
+
+  [[providers.layers]]
+  name = "bevarende_lokalplaner"
   tablename = "bevarende_lokalplaner"
+
+  [[providers.layers]]
+  name = "temalokalplaner"
+  tablename = "temalokalplaner"
+
+  [[providers.layers]]
+  name = "lokalplaner_forslag"
+  tablename = "lokalplaner_forslag"
 
   [[providers.layers]]
   name = "kommuneplanrammer"
@@ -31,32 +63,48 @@ ssl_mode = "require"
   tablename = "kommuneplantillaeg"
 
   [[providers.layers]]
-  name = "lokalplan"
-  tablename = "lokalplan"
+  name = "raadighedsareal"
+  tablename = "raadighedsareal"
 
   [[providers.layers]]
-  name = "lokalplaner_forslag"
-  tablename = "lokalplaner_forslag"
+  name = "skoledistrikter_0_5"
+  tablename = "skoledistrikter_0_5"
 
   [[providers.layers]]
-  name = "fredet_bevaringsvaerdig_bygning"
-  tablename = "fredet_bevaringsvaerdig_bygning"
+  name = "institutioner"
+  tablename = "institutioner"
 
   [[providers.layers]]
-  name = "temalokalplaner"
-  tablename = "temalokalplaner"
+  name = "doegninstitutioner"
+  tablename = "doegninstitutioner"
 
   [[providers.layers]]
-  name = "jordforurening"
-  tablename = "jordforurening"
+  name = "skoler"
+  tablename = "skoler"
 
   [[providers.layers]]
-  name = "matrikel"
-  tablename = "matrikel"
+  name = "gymnasier"
+  tablename = "gymnasier"
 
   [[providers.layers]]
-  name = "nedsivning_potentiale"
-  tablename = "nedsivning_potentiale"
+  name = "fritidsklubber"
+  tablename = "fritidsklubber"
+
+  [[providers.layers]]
+  name = "legepladser"
+  tablename = "legepladser"
+
+  [[providers.layers]]
+  name = "skoledistrikter_6_9"
+  tablename = "skoledistrikter_6_9"
+
+  [[providers.layers]]
+  name = "aabne_friarealer"
+  tablename = "aabne_friarealer"
+
+  [[providers.layers]]
+  name = "multibaner"
+  tablename = "multibaner"
 
 [[maps]]
 name = "Byggeri og planlægning"
@@ -119,5 +167,75 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Nedsivningspotentiale"
   provider_layer = "db1.nedsivning_potentiale"
+  min_zoom = 10
+  max_zoom = 20
+  
+  [[maps.layers]]
+  name = "Rådighedsareal"
+  provider_layer = "db1.raadighedsareal"
+  min_zoom = 10
+  max_zoom = 20
+
+[[maps]]
+name = "Børn og unge"
+center = [12.52358, 55.68115, 13.0]
+
+  [[maps.layers]]
+  name = "Børneinstitutioner"
+  provider_layer = "db1.institutioner"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Døgninstitutioner"
+  provider_layer = "db1.doegninstitutioner"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Skoler"
+  provider_layer = "db1.skoler"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Gymnasier"
+  provider_layer = "db1.gymnasier"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Fritidsklubber"
+  provider_layer = "db1.fritidsklubber"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Legepladser"
+  provider_layer = "db1.legepladser"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Åbne friarealer"
+  provider_layer = "db1.aabne_friarealer"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Multibaner"
+  provider_layer = "db1.multibaner"
+  min_zoom = 10
+  max_zoom = 20
+  
+  [[maps.layers]]
+  name = "Skoledistrikter 0.-5. klasse (2016/17)"
+  provider_layer = "db1.skoledistrikter_0_5"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Skoledistrikter 6.-9. klasse (2016/17)"
+  provider_layer = "db1.skoledistrikter_6_9"
   min_zoom = 10
   max_zoom = 20
