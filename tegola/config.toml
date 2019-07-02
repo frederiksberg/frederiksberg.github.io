@@ -19,40 +19,61 @@ max_connections = 50        # There's configured 50 connections in the pool for 
 ssl_mode = "require"
 
 
-# ----------------
-# BYG & PLANLÆGNING
-# ----------------
   [[providers.layers]]
-  name = "matrikel"
-  tablename = "matrikel"
-
-  [[providers.layers]]
-  name = "jordforurening"
-  tablename = "jordforurening"
-
-  [[providers.layers]]
-  name = "nedsivning_potentiale"
-  tablename = "nedsivning_potentiale"
-
-  [[providers.layers]]
-  name = "fredet_bevaringsvaerdig_bygning"
-  tablename = "fredet_bevaringsvaerdig_bygning"
-
-  [[providers.layers]]
-  name = "lokalplan"
-  tablename = "lokalplan"
+  name = "aabne_friarealer"
+  tablename = "aabne_friarealer"
 
   [[providers.layers]]
   name = "bevarende_lokalplaner"
   tablename = "bevarende_lokalplaner"
 
   [[providers.layers]]
-  name = "temalokalplaner"
-  tablename = "temalokalplaner"
+  name = "bibliotek"
+  tablename = "bibliotek"
 
   [[providers.layers]]
-  name = "lokalplaner_forslag"
-  tablename = "lokalplaner_forslag"
+  name = "doegninstitutioner"
+  tablename = "doegninstitutioner"
+
+  [[providers.layers]]
+  name = "fredet_bevaringsvaerdig_bygning"
+  tablename = "fredet_bevaringsvaerdig_bygning"
+
+  [[providers.layers]]
+  name = "fritidsklubber"
+  tablename = "fritidsklubber"
+
+  [[providers.layers]]
+  name = "gronneomraader"
+  tablename = "gronneomraader"
+
+  [[providers.layers]]
+  name = "gymnasier"
+  tablename = "gymnasier"
+
+  [[providers.layers]]
+  name = "hunde_fritloebsomraader"
+  tablename = "hunde_fritloebsomraader"
+
+  [[providers.layers]]
+  name = "idraetshaller"
+  tablename = "idraetshaller"
+
+  [[providers.layers]]
+  name = "institutioner"
+  tablename = "institutioner"
+
+  [[providers.layers]]
+  name = "jordforurening"
+  tablename = "jordforurening"
+
+  [[providers.layers]]
+  name = "kirkegaarde"
+  tablename = "kirkegaarde"
+
+  [[providers.layers]]
+  name = "kolonihaver"
+  tablename = "kolonihaver"
 
   [[providers.layers]]
   name = "kommuneplanrammer"
@@ -63,85 +84,99 @@ ssl_mode = "require"
   tablename = "kommuneplantillaeg"
 
   [[providers.layers]]
-  name = "raadighedsareal"
-  tablename = "raadighedsareal"
-  
-  
-#----------------
-# BØRN OG UNGE
-#----------------
-  [[providers.layers]]
-  name = "skoledistrikter_0_5"
-  tablename = "skoledistrikter_0_5"
-
-  [[providers.layers]]
-  name = "institutioner"
-  tablename = "institutioner"
-
-  [[providers.layers]]
-  name = "doegninstitutioner"
-  tablename = "doegninstitutioner"
-
-  [[providers.layers]]
-  name = "skoler"
-  tablename = "skoler"
-
-  [[providers.layers]]
-  name = "gymnasier"
-  tablename = "gymnasier"
-
-  [[providers.layers]]
-  name = "fritidsklubber"
-  tablename = "fritidsklubber"
+  name = "kultursteder"
+  tablename = "kultursteder"
 
   [[providers.layers]]
   name = "legepladser"
   tablename = "legepladser"
 
   [[providers.layers]]
-  name = "skoledistrikter_6_9"
-  tablename = "skoledistrikter_6_9"
+  name = "lokalplan"
+  tablename = "lokalplan"
 
   [[providers.layers]]
-  name = "aabne_friarealer"
-  tablename = "aabne_friarealer"
+  name = "lokalplaner_forslag"
+  tablename = "lokalplaner_forslag"
+
+  [[providers.layers]]
+  name = "matrikel"
+  tablename = "matrikel"
+
+  [[providers.layers]]
+  name = "motionsruter"
+  tablename = "motionsruter"
 
   [[providers.layers]]
   name = "multibaner"
   tablename = "multibaner"
-  
-  
-#----------------
-# KULTUR
-#----------------
+
+  [[providers.layers]]
+  name = "nedsivning_potentiale"
+  tablename = "nedsivning_potentiale"
+
   [[providers.layers]]
   name = "offentlige_toiletter"
   tablename = "offentlige_toiletter"
 
   [[providers.layers]]
-  name = "valgdistrikter"
-  tablename = "valgdistrikter"
+  name = "punkter_motion"
+  tablename = "punkter_motion"
 
   [[providers.layers]]
-  name = "skulptur"
-  tablename = "skulptur"
-
-  [[providers.layers]]
-  name = "bibliotek"
-  tablename = "bibliotek"
-
-  [[providers.layers]]
-  name = "kultursteder"
-  tablename = "kultursteder"
+  name = "raadighedsareal"
+  tablename = "raadighedsareal"
 
   [[providers.layers]]
   name = "sevaerdighed"
   tablename = "sevaerdighed"
 
   [[providers.layers]]
-  name = "kirkegaarde"
-  tablename = "kirkegaarde"
+  name = "skoledistrikter_0_5"
+  tablename = "skoledistrikter_0_5"
 
+  [[providers.layers]]
+  name = "skoledistrikter_6_9"
+  tablename = "skoledistrikter_6_9"
+
+  [[providers.layers]]
+  name = "skoler"
+  tablename = "skoler"
+
+  [[providers.layers]]
+  name = "skulptur"
+  tablename = "skulptur"
+
+  [[providers.layers]]
+  name = "sportsanlaeg"
+  tablename = "sportsanlaeg"
+
+  [[providers.layers]]
+  name = "temalokalplaner"
+  tablename = "temalokalplaner"
+
+  [[providers.layers]]
+  name = "traer"
+  tablename = "traer"
+
+  [[providers.layers]]
+  name = "valgdistrikter"
+  tablename = "valgdistrikter"
+
+  [[providers.layers]]
+  name = "vandposter"
+  tablename = "vandposter"
+
+
+#__/\\\\____________/\\\\_____/\\\\\\\\\_____/\\\\\\\\\\\\\_______/\\\\\\\\\\\___        
+# _\/\\\\\\________/\\\\\\___/\\\\\\\\\\\\\__\/\\\/////////\\\___/\\\/////////\\\_       
+#  _\/\\\//\\\____/\\\//\\\__/\\\/////////\\\_\/\\\_______\/\\\__\//\\\______\///__      
+#   _\/\\\\///\\\/\\\/_\/\\\_\/\\\_______\/\\\_\/\\\\\\\\\\\\\/____\////\\\_________     
+#    _\/\\\__\///\\\/___\/\\\_\/\\\\\\\\\\\\\\\_\/\\\/////////_________\////\\\______    
+#     _\/\\\____\///_____\/\\\_\/\\\/////////\\\_\/\\\_____________________\////\\\___   
+#      _\/\\\_____________\/\\\_\/\\\_______\/\\\_\/\\\______________/\\\______\//\\\__  
+#       _\/\\\_____________\/\\\_\/\\\_______\/\\\_\/\\\_____________\///\\\\\\\\\\\/___ 
+#        _\///______________\///__\///________\///__\///________________\///////////_____
 
 # ----------------
 # BYG & PLANLÆGNING
@@ -333,3 +368,96 @@ center = [12.52358, 55.68115, 13.0]
   provider_layer = "db1.valgdistrikter"
   min_zoom = 10
   max_zoom = 20
+
+
+# -------------
+# Grøn og aktiv
+# -------------
+[[maps]]
+name = "Kultur"
+center = [12.52358, 55.68115, 13.0]
+
+  [[maps.layers]]
+  name = "Aktivitetsspots"
+  provider_layer = "db1.punkter_motion"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Motionsruter"
+  provider_layer = "db1.motionsruter"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Multibaner"
+  provider_layer = "db1.multibaner"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Idrætshaller"
+  provider_layer = "db1.idraetshaller"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Sportsanlæg"
+  provider_layer = "db1.sportsanlaeg"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Legepladser"
+  provider_layer = "db1.legepladser"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Åbne friarealer"
+  provider_layer = "db1.aabne_friarealer"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Kolonihaver"
+  provider_layer = "db1.kolonihaver"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Kirkegårde"
+  provider_layer = "db1.kirkegaarde"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Parker og haver"
+  provider_layer = "db1.gronneomraader"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Fritløbsområder til hunde"
+  provider_layer = "db1.hunde_fritloebsomraader"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Vandposter"
+  provider_layer = "db1.vandposter"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Offentlige toiletter"
+  provider_layer = "db1.offentlige_toiletter"
+  min_zoom = 10
+  max_zoom = 20
+
+  [[maps.layers]]
+  name = "Træer"
+  provider_layer = "db1.traer"
+  min_zoom = 10
+  max_zoom = 20
+
