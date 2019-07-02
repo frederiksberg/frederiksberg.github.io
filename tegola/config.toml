@@ -380,84 +380,57 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Aktivitetsspots"
   provider_layer = "db1.punkter_motion"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Motionsruter"
   provider_layer = "db1.motionsruter"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Multibaner"
   provider_layer = "db1.multibaner"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Idrætshaller"
   provider_layer = "db1.idraetshaller"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Sportsanlæg"
   provider_layer = "db1.sportsanlaeg"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Legepladser"
   provider_layer = "db1.legepladser"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Åbne friarealer"
   provider_layer = "db1.aabne_friarealer"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Kolonihaver"
   provider_layer = "db1.kolonihaver"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Kirkegårde"
   provider_layer = "db1.kirkegaarde"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Parker og haver"
   provider_layer = "db1.gronneomraader"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Fritløbsområder til hunde"
   provider_layer = "db1.hunde_fritloebsomraader"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Vandposter"
   provider_layer = "db1.vandposter"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Offentlige toiletter"
   provider_layer = "db1.offentlige_toiletter"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Træer"
   provider_layer = "db1.traer"
-  min_zoom = 10
-  max_zoom = 20
+
 
