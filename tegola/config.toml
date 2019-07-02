@@ -188,68 +188,46 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Bevarende lokalplaner"
   provider_layer = "db1.bevarende_lokalplaner"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Kommuneplanrammer"
   provider_layer = "db1.kommuneplanrammer"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Kommuneplantillæg"
   provider_layer = "db1.kommuneplantillaeg"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Lokalplaner"
   provider_layer = "db1.lokalplan"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Lokalplan forslag"
   provider_layer = "db1.lokalplaner_forslag"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Temalokalokalplaner"
   provider_layer = "db1.temalokalplaner"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Fredede og bevaringsværdige bygninger"
   provider_layer = "db1.fredet_bevaringsvaerdig_bygning"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Jordforurening"
   provider_layer = "db1.jordforurening"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Matrikler"
   provider_layer = "db1.matrikel"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Nedsivningspotentiale"
   provider_layer = "db1.nedsivning_potentiale"
-  min_zoom = 10
-  max_zoom = 20
-  
+
   [[maps.layers]]
   name = "Rådighedsareal"
   provider_layer = "db1.raadighedsareal"
-  min_zoom = 10
-  max_zoom = 20
 
 
 #----------------
@@ -262,62 +240,42 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Børneinstitutioner"
   provider_layer = "db1.institutioner"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Døgninstitutioner"
   provider_layer = "db1.doegninstitutioner"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Skoler"
   provider_layer = "db1.skoler"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Gymnasier"
   provider_layer = "db1.gymnasier"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Fritidsklubber"
   provider_layer = "db1.fritidsklubber"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Legepladser"
   provider_layer = "db1.legepladser"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Åbne friarealer"
   provider_layer = "db1.aabne_friarealer"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Multibaner"
   provider_layer = "db1.multibaner"
-  min_zoom = 10
-  max_zoom = 20
-  
+
   [[maps.layers]]
   name = "Skoledistrikter 0.-5. klasse (2016/17)"
   provider_layer = "db1.skoledistrikter_0_5"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Skoledistrikter 6.-9. klasse (2016/17)"
   provider_layer = "db1.skoledistrikter_6_9"
-  min_zoom = 10
-  max_zoom = 20
 
 
 # -------------
@@ -330,44 +288,30 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Biblioteker"
   provider_layer = "db1.bibliotek"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Kultursteder"
   provider_layer = "db1.kultursteder"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Seværdigheder"
   provider_layer = "db1.sevaerdighed"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Skulpturer"
   provider_layer = "db1.skulptur"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Kirkegårde"
   provider_layer = "db1.kirkegaarde"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Offentlige toiletter"
   provider_layer = "db1.offentlige_toiletter"
-  min_zoom = 10
-  max_zoom = 20
 
   [[maps.layers]]
   name = "Valgdistrikter"
   provider_layer = "db1.valgdistrikter"
-  min_zoom = 10
-  max_zoom = 20
 
 
 # -------------
@@ -432,5 +376,3 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Træer"
   provider_layer = "db1.traer"
-
-
