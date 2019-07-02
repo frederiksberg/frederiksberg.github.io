@@ -374,7 +374,7 @@ center = [12.52358, 55.68115, 13.0]
 # Grøn og aktiv
 # -------------
 [[maps]]
-name = "Kultur"
+name = "Grøn og aktiv"
 center = [12.52358, 55.68115, 13.0]
 
   [[maps.layers]]
@@ -409,9 +409,9 @@ center = [12.52358, 55.68115, 13.0]
   name = "Kolonihaver"
   provider_layer = "db1.kolonihaver"
 
-  #[[maps.layers]]
-  #name = "Kirkegårde"
-  #provider_layer = "db1.kirkegaarde"
+  [[maps.layers]]
+  name = "Kirkegårde"
+  provider_layer = "db1.kirkegaarde"
 
   [[maps.layers]]
   name = "Parker og haver"
