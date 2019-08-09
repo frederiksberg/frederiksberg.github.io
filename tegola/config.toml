@@ -457,7 +457,7 @@ center = [12.52358, 55.68115, 13.0]
   provider_layer = "db1.parkeringszone"
 
   [[maps.layers]]
-  name = "p_automater"
+  name = "P-automater"
   provider_layer = "db1.p_automater"
 
   [[maps.layers]]
