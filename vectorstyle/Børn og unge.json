@@ -1,0 +1,148 @@
+{
+    "Børneinstitutioner": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": ["match",["get","insitutationtype"],
+                  "Dagpleje","b70b0b",
+                  "Integreret","a4c432",
+                  "Børnehave","ffeb57",
+                  "Vuggestue","ff9f48",
+                  "Private institutioner","197bde",
+                  "#FFFFFF"
+
+                ]
+            }
+        ]
+    },
+    "Døgninstitutioner": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#ffeb57"
+            }
+        ]
+    },
+    "Skoler": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": ["match",["get","type"],
+                "Folkeskole","007056",
+                "Specialskole","40b365",
+                "#FFFFFF"
+
+              ]
+    },
+    "Gymnasier": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#197bde"
+            }
+        ]
+    },
+    "Fritidsklubber": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": ["match",["get","ejerforhold"],
+                "Kommunal Fritidsklub","b7138d",
+                "Selvejede Fritidsklub","581577",
+                "#FFFFFF"
+
+              ]
+    },
+    "Legepladser": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#a4c432"
+            }
+        ]
+    },
+    "Åbne friarealer": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#406056"
+            }
+        ]
+    },
+    "Multibaner": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#ffeb57"
+            }
+        ]
+    },
+    "Skoledistrikter 0.-5. klasse (2016/17)": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": ["match", ["get", "skolenavn"],
+                    "Lindevangskolen", "#033F88",
+                    "Søndermarkskolen", "#B7138D",
+                    "Frederiksberg Rådhushal", "#b1d6ff",
+                    "Skolen ved Søerne", "#FF9F48",
+                    "Skolen på Duevej", "#581577",
+                    "Ny Hollænderskolen", "#009932",
+                    "Bülowsvejhallen", "#db8586",
+                    "Skolen på Nyelandsvej", "#A4C432",
+                    "Skolen ved Bülowsvej", "#B70B0B",
+                    "Frederiksberg Ny Skole","#63AEFF",
+                    "Skolen på La Cours Vej","#007056",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }
+        ]
+    },
+    "Skoledistrikter 6.-9. klasse (2016/17)": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": ["match", ["get", "skolenavn"],
+                    "Lindevangskolen", "#033F88",
+                    "Søndermarkskolen", "#B7138D",
+                    "Frederiksberg Rådhushal", "#b1d6ff",
+                    "Skolen ved Søerne", "#FF9F48",
+                    "Skolen på Duevej", "#581577",
+                    "Ny Hollænderskolen", "#009932",
+                    "Bülowsvejhallen", "#B70B0B",
+                    "Skolen på Nyelandsvej", "#A4C432",
+                    "Skolen ved Bülowsvej", "#FFC107",
+                    "Frederiksberg Ny Skole","#FF5722",
+                    "Skolen på La Cours Vej","#007056",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }
+        ]
+    }
+}

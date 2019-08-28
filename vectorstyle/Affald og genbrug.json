@@ -1,0 +1,47 @@
+{
+    "Genbrugsstation": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#673AB7"
+            }
+        ]
+    },
+    "Glas": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#3F51B5"
+            }
+        ]
+    },
+    "Genbrugs-øer": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#2196F3"
+            }
+        ]
+    },
+    "Apoteker": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#00BCD4"
+            }
+        ]
+    },
+    "Malerbutikker": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#009688"
+            }
+        ]
+    }
+}

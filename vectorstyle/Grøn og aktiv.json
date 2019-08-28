@@ -1,0 +1,176 @@
+{
+    "Motionsruter": {
+        "type": "line",
+        "properties": [
+            {
+                "name": "line-color",
+                "value": "#BF360C"
+            },
+            {
+                "name": "line-width",
+                "value": 3
+            }
+        ]
+    },
+    "Aktivitetsspots": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#673AB7"
+            }
+        ]
+    },
+    "Multibaner": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#3F51B5"
+            }
+        ]
+    },
+    "Idrætshaller": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#2196F3"
+            }
+        ]
+    },
+    "Legepladser": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#009688"
+            }
+        ]
+    },
+    "Åbne friarealer": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#8BC34A"
+            }
+        ]
+    },
+    "Vandposter": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#CDDC39"
+            }
+        ]
+    },
+    "Træer": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "#FBC02D"
+            }
+        ]
+    },
+    "Sportsanlæg": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": "#00BCD4"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }         
+        ]
+    },
+    "Kirkegårde": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": "#8cc2ff"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }
+        ]
+    },
+    "Kolonihaver": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": "#4CAF50"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }           
+        ]
+    },
+    "Fritløbsområder til hunde": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": "#616161"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }
+        ]
+    },
+    "Parker og haver": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": "#FFA000"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }
+        ]
+    },
+    "Offentlige toiletter": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": ["match", ["get", "case"], "Handicapvenlige: Nej", "#549ce6", "Handicapvenlige: Ja", "#40b365", "#ffffff"]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            }
+        ]
+    }
+}

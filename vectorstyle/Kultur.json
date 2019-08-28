@@ -1,0 +1,208 @@
+{
+    "Biblioteker": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "660510"
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [0.5,0]
+                }
+            ]
+        }
+    },
+    "Kultursteder": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "b70b0b"
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [0.5,0]
+                }
+            ]
+        }
+    },
+    "Seværdigheder": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "033f88"
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [0.5,0]
+                }
+            ]
+        }
+    },
+    "Skulpturer": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": "ff9f48"
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [0.5,0]
+                }
+            ]
+        }
+    },
+    "Kirkegårde": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": "#63aeff"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.7
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                }
+            ]
+        }
+    },
+    "Offentlige toiletter": {
+        "type": "circle",
+        "properties": [
+            {
+                "name": "circle-color",
+                "value": ["match", ["get", "case"], 
+                          "Handicapvenlige: Nej", "#549CE6", 
+                          "Handicapvenlige: Ja", "#40B365", 
+                          "#ffffff"]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [0.5,0]
+                }
+            ]
+        }
+    },
+    "Valgdistrikter": {
+        "type": "fill",
+        "properties": [
+            {
+                "name": "fill-color",
+                "value": ["match", ["get", "navn"],
+                    "Lindevangskolen", "#033F88",
+                    "Søndermarkskolen", "#B7138D",
+                    "Frederiksberg Rådhushal", "#63AEFF",
+                    "Skolen ved Søerne", "#FF9F48",
+                    "Skolen på Duevej", "#581577",
+                    "Ny Hollænderskolen", "#009932",
+                    "Bülowsvejhallen", "#B70B0B",
+                    "Skolen på Nyelandsvej", "#A4C432",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "black"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            }
+        ],
+        "symbols": {
+            "minZoom":14,
+            "maxZoom":22,
+            "properties": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                }
+            ]
+        }
+    }
+}
