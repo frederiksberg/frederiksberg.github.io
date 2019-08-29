@@ -4,7 +4,7 @@
         "properties": [
             {
                 "name": "circle-color",
-                "value": "660510"
+                "value": "#660510"
             }
         ],
         "symbols": {
@@ -31,7 +31,7 @@
         "properties": [
             {
                 "name": "circle-color",
-                "value": "b70b0b"
+                "value": "#b70b0b"
             }
         ],
         "symbols": {
@@ -58,7 +58,7 @@
         "properties": [
             {
                 "name": "circle-color",
-                "value": "033f88"
+                "value": "#033f88"
             }
         ],
         "symbols": {
@@ -85,7 +85,7 @@
         "properties": [
             {
                 "name": "circle-color",
-                "value": "ff9f48"
+                "value": "#ff9f48"
             }
         ],
         "symbols": {
