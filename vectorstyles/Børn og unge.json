@@ -5,11 +5,11 @@
             {
                 "name": "circle-color",
                 "value": ["match",["get","insitutationtype"],
-                  "Dagpleje","b70b0b",
-                  "Integreret","a4c432",
-                  "Børnehave","ffeb57",
-                  "Vuggestue","ff9f48",
-                  "Private institutioner","197bde",
+                  "Dagpleje","#b70b0b",
+                  "Integreret","#a4c432",
+                  "Børnehave","#ffeb57",
+                  "Vuggestue","#ff9f48",
+                  "Private institutioner","#197bde",
                   "#FFFFFF"
 
                 ]
@@ -31,8 +31,8 @@
             {
                 "name": "circle-color",
                 "value": ["match",["get","type"],
-                "Folkeskole","007056",
-                "Specialskole","40b365",
+                "Folkeskole","#007056",
+                "Specialskole","#40b365",
                 "#FFFFFF"
 
               ]
@@ -52,8 +52,8 @@
             {
                 "name": "circle-color",
                 "value": ["match",["get","ejerforhold"],
-                "Kommunal Fritidsklub","b7138d",
-                "Selvejede Fritidsklub","581577",
+                "Kommunal Fritidsklub","#b7138d",
+                "Selvejede Fritidsklub","#581577",
                 "#FFFFFF"
 
               ]
