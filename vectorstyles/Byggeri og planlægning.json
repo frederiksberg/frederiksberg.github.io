@@ -201,7 +201,19 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "dynamic",
+            "minZoom": 12,
+            "maxZoom": 22, 
+            "paint":[],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{Matrikelnummer}"
+                }
+            ]
+        }
     },
     "Nedsivningspotentiale": {
         "type": "fill",
