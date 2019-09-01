@@ -206,12 +206,12 @@
             "type": "dynamic",
             "minZoom": 12,
             "maxZoom": 22, 
-            "textProperty":"Matrikelnummer",
+            "textProperty":"matrikelnummer",
             "paint":[],
             "layout": [
                 {
                     "name": "text-field",
-                    "value": "{Matrikelnummer}"
+                    "value": "{matrikelnummer}"
                 }
             ]
         }
