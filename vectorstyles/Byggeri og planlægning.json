@@ -206,6 +206,7 @@
             "type": "dynamic",
             "minZoom": 12,
             "maxZoom": 22, 
+            "textProperty":"Matrikelnummer",
             "paint":[],
             "layout": [
                 {
