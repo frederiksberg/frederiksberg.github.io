@@ -46,7 +46,20 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "dynamic",
+            "minZoom": 15,
+            "maxZoom": 22, 
+            "textProperty":"plan nr",
+            "paint":[],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{plan nr}"
+                }
+            ]
+        }
     },
     "Kommuneplantillæg": {
         "type": "fill",
@@ -204,7 +217,7 @@
         "layout":[],
         "symbols": {
             "type": "dynamic",
-            "minZoom": 16,
+            "minZoom": 15,
             "maxZoom": 22, 
             "textProperty":"matrikelnummer",
             "paint":[],
