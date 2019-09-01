@@ -7,10 +7,11 @@
                 "value": "#660510"
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
@@ -22,7 +23,10 @@
                 },
                 {
                     "name": "text-offset",
-                    "value": [0.5,0]
+                    "value": [
+                        0.5,
+                        0
+                    ]
                 }
             ]
         }
@@ -35,10 +39,11 @@
                 "value": "#b70b0b"
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
@@ -50,7 +55,10 @@
                 },
                 {
                     "name": "text-offset",
-                    "value": [0.5,0]
+                    "value": [
+                        0.5,
+                        0
+                    ]
                 }
             ]
         }
@@ -63,10 +71,11 @@
                 "value": "#033f88"
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
@@ -78,7 +87,10 @@
                 },
                 {
                     "name": "text-offset",
-                    "value": [0.5,0]
+                    "value": [
+                        0.5,
+                        0
+                    ]
                 }
             ]
         }
@@ -91,10 +103,11 @@
                 "value": "#ff9f48"
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
@@ -106,7 +119,10 @@
                 },
                 {
                     "name": "text-offset",
-                    "value": [0.5,0]
+                    "value": [
+                        0.5,
+                        0
+                    ]
                 }
             ]
         }
@@ -127,10 +143,11 @@
                 "value": "black"
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
@@ -144,20 +161,29 @@
         "paint": [
             {
                 "name": "circle-color",
-                "value": ["match", ["get", "case"], 
-                          "Handicapvenlige: Nej", "#549CE6", 
-                          "Handicapvenlige: Ja", "#40B365", 
-                          "#ffffff"]
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "case"
+                    ],
+                    "Handicapvenlige: Nej",
+                    "#549CE6",
+                    "Handicapvenlige: Ja",
+                    "#40B365",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "circle-radius",
                 "value": 6
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
@@ -169,7 +195,10 @@
                 },
                 {
                     "name": "text-offset",
-                    "value": [0.5,0]
+                    "value": [
+                        0.5,
+                        0
+                    ]
                 }
             ]
         }
@@ -179,15 +208,28 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "navn"],
-                    "Lindevangskolen", "#033F88",
-                    "Søndermarkskolen", "#B7138D",
-                    "Frederiksberg Rådhushal", "#63AEFF",
-                    "Skolen ved Søerne", "#FF9F48",
-                    "Skolen på Duevej", "#581577",
-                    "Ny Hollænderskolen", "#009932",
-                    "Bülowsvejhallen", "#B70B0B",
-                    "Skolen på Nyelandsvej", "#A4C432",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "navn"
+                    ],
+                    "Lindevangskolen",
+                    "#033F88",
+                    "Søndermarkskolen",
+                    "#B7138D",
+                    "Frederiksberg Rådhushal",
+                    "#63AEFF",
+                    "Skolen ved Søerne",
+                    "#FF9F48",
+                    "Skolen på Duevej",
+                    "#581577",
+                    "Ny Hollænderskolen",
+                    "#009932",
+                    "Bülowsvejhallen",
+                    "#B70B0B",
+                    "Skolen på Nyelandsvej",
+                    "#A4C432",
                     "#ffffff"
                 ]
             },
@@ -200,10 +242,11 @@
                 "value": 0.5
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
-            "minZoom":14,
-            "maxZoom":22,
+            "type": "dynamic",
+            "minZoom": 14,
+            "maxZoom": 22,
             "properties": [
                 {
                     "name": "text-field",
