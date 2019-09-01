@@ -1,12 +1,13 @@
 {
     "Biblioteker": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#660510"
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,
@@ -28,12 +29,13 @@
     },
     "Kultursteder": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#b70b0b"
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,
@@ -55,12 +57,13 @@
     },
     "Seværdigheder": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#033f88"
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,
@@ -82,12 +85,13 @@
     },
     "Skulpturer": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#ff9f48"
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,
@@ -109,7 +113,7 @@
     },
     "Kirkegårde": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#63aeff"
@@ -123,6 +127,7 @@
                 "value": "black"
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,
@@ -136,7 +141,7 @@
     },
     "Offentlige toiletter": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": ["match", ["get", "case"], 
@@ -149,6 +154,7 @@
                 "value": 6
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,
@@ -170,7 +176,7 @@
     },
     "Valgdistrikter": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "navn"],
@@ -194,6 +200,7 @@
                 "value": 0.5
             }
         ],
+        "layout":[],
         "symbols": {
             "minZoom":14,
             "maxZoom":22,

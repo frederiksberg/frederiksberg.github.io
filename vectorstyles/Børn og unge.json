@@ -1,107 +1,156 @@
 {
     "Børneinstitutioner": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
-                "value": ["match",["get","insitutationtype"],
-                  "Dagpleje","#b70b0b",
-                  "Integreret","#a4c432",
-                  "Børnehave","#ffeb57",
-                  "Vuggestue","#ff9f48",
-                  "Private institutioner","#197bde",
-                  "#FFFFFF"
-
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "insitutationtype"
+                    ],
+                    "Dagpleje",
+                    "#b70b0b",
+                    "Integreret",
+                    "#a4c432",
+                    "Børnehave",
+                    "#ffeb57",
+                    "Vuggestue",
+                    "#ff9f48",
+                    "Private institutioner",
+                    "#197bde",
+                    "#FFFFFF"
                 ]
             }
-        ]
+        ],
+        "layout": []
     },
     "Døgninstitutioner": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#ffeb57"
             }
-        ]
+        ],
+        "layout": []
     },
     "Skoler": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
-                "value": ["match",["get","type"],
-                "Folkeskole","#007056",
-                "Specialskole","#40b365",
-                "#FFFFFF"
-
-              ]
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "type"
+                    ],
+                    "Folkeskole",
+                    "#007056",
+                    "Specialskole",
+                    "#40b365",
+                    "#FFFFFF"
+                ]
+            }
+        ],
+        "layout": []
     },
     "Gymnasier": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#197bde"
             }
-        ]
+        ],
+        "layout": []
     },
     "Fritidsklubber": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
-                "value": ["match",["get","ejerforhold"],
-                "Kommunal Fritidsklub","#b7138d",
-                "Selvejede Fritidsklub","#581577",
-                "#FFFFFF"
-
-              ]
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "ejerforhold"
+                    ],
+                    "Kommunal Fritidsklub",
+                    "#b7138d",
+                    "Selvejede Fritidsklub",
+                    "#581577",
+                    "#FFFFFF"
+                ]
+            }
+        ],
+        "layout":[]
     },
     "Legepladser": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#a4c432"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Åbne friarealer": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#406056"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Multibaner": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#ffeb57"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Skoledistrikter 0.-5. klasse (2016/17)": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "skolenavn"],
-                    "Lindevangskolen", "#033F88",
-                    "Søndermarkskolen", "#B7138D",
-                    "Frederiksberg Rådhushal", "#b1d6ff",
-                    "Skolen ved Søerne", "#FF9F48",
-                    "Skolen på Duevej", "#581577",
-                    "Ny Hollænderskolen", "#009932",
-                    "Bülowsvejhallen", "#db8586",
-                    "Skolen på Nyelandsvej", "#A4C432",
-                    "Skolen ved Bülowsvej", "#B70B0B",
-                    "Frederiksberg Ny Skole","#63AEFF",
-                    "Skolen på La Cours Vej","#007056",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "skolenavn"
+                    ],
+                    "Lindevangskolen",
+                    "#033F88",
+                    "Søndermarkskolen",
+                    "#B7138D",
+                    "Frederiksberg Rådhushal",
+                    "#b1d6ff",
+                    "Skolen ved Søerne",
+                    "#FF9F48",
+                    "Skolen på Duevej",
+                    "#581577",
+                    "Ny Hollænderskolen",
+                    "#009932",
+                    "Bülowsvejhallen",
+                    "#db8586",
+                    "Skolen på Nyelandsvej",
+                    "#A4C432",
+                    "Skolen ved Bülowsvej",
+                    "#B70B0B",
+                    "Frederiksberg Ny Skole",
+                    "#63AEFF",
+                    "Skolen på La Cours Vej",
+                    "#007056",
                     "#ffffff"
                 ]
             },
@@ -113,25 +162,42 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Skoledistrikter 6.-9. klasse (2016/17)": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "skolenavn"],
-                    "Lindevangskolen", "#033F88",
-                    "Søndermarkskolen", "#B7138D",
-                    "Frederiksberg Rådhushal", "#b1d6ff",
-                    "Skolen ved Søerne", "#FF9F48",
-                    "Skolen på Duevej", "#581577",
-                    "Ny Hollænderskolen", "#009932",
-                    "Bülowsvejhallen", "#B70B0B",
-                    "Skolen på Nyelandsvej", "#A4C432",
-                    "Skolen ved Bülowsvej", "#FFC107",
-                    "Frederiksberg Ny Skole","#FF5722",
-                    "Skolen på La Cours Vej","#007056",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "skolenavn"
+                    ],
+                    "Lindevangskolen",
+                    "#033F88",
+                    "Søndermarkskolen",
+                    "#B7138D",
+                    "Frederiksberg Rådhushal",
+                    "#b1d6ff",
+                    "Skolen ved Søerne",
+                    "#FF9F48",
+                    "Skolen på Duevej",
+                    "#581577",
+                    "Ny Hollænderskolen",
+                    "#009932",
+                    "Bülowsvejhallen",
+                    "#B70B0B",
+                    "Skolen på Nyelandsvej",
+                    "#A4C432",
+                    "Skolen ved Bülowsvej",
+                    "#FFC107",
+                    "Frederiksberg Ny Skole",
+                    "#FF5722",
+                    "Skolen på La Cours Vej",
+                    "#007056",
                     "#ffffff"
                 ]
             },
@@ -143,6 +209,7 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }
-        ]
+        ],
+        "layout":[]
     }
 }

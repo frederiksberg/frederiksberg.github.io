@@ -1,7 +1,7 @@
 {
     "Bevarende lokalplaner": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "navn"],
@@ -18,11 +18,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Kommuneplanrammer": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "genneral anvendelse"],
@@ -44,11 +45,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Kommuneplantillæg": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "genneral anvendelse"],
@@ -66,11 +68,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Lokalplaner": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#e85921"
@@ -83,11 +86,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Lokalplan forslag": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "genneral anvendelse"],
@@ -106,11 +110,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Temalokalokalplaner": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "plan nr"],
@@ -131,11 +136,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Fredede og bevaringsværdige bygninger": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "bevaringsværdi"],
@@ -154,11 +160,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Jordforurening": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "type"],
@@ -175,11 +182,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Matrikler": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "transparent"
@@ -192,11 +200,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Nedsivningspotentiale": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": ["match", ["get", "kategori"],
@@ -216,11 +225,12 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     },
     "Rådighedsareal": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#A4c432"
@@ -233,6 +243,7 @@
                 "name": "fill-opacity",
                 "value": 0.6
             }
-        ]
+        ],
+        "layout":[]
     }
 }

@@ -1,7 +1,7 @@
 {
     "Motionsruter": {
         "type": "line",
-        "properties": [
+        "paint": [
             {
                 "name": "line-color",
                 "value": "#BF360C"
@@ -10,74 +10,82 @@
                 "name": "line-width",
                 "value": 3
             }
-        ]
+        ],
+        "layout":[]
     },
     "Aktivitetsspots": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#673AB7"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Multibaner": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#3F51B5"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Idrætshaller": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#2196F3"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Legepladser": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#009688"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Åbne friarealer": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#8BC34A"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Vandposter": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#CDDC39"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Træer": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": "#FBC02D"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Sportsanlæg": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#00BCD4"
@@ -90,11 +98,12 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }         
-        ]
+        ],
+        "layout":[]
     },
     "Kirkegårde": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#8cc2ff"
@@ -107,11 +116,12 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Kolonihaver": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#4CAF50"
@@ -124,11 +134,12 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }           
-        ]
+        ],
+        "layout":[]
     },
     "Fritløbsområder til hunde": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#616161"
@@ -141,11 +152,12 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Parker og haver": {
         "type": "fill",
-        "properties": [
+        "paint": [
             {
                 "name": "fill-color",
                 "value": "#FFA000"
@@ -158,11 +170,12 @@
                 "name": "fill-outline-color",
                 "value": "black"
             }
-        ]
+        ],
+        "layout":[]
     },
     "Offentlige toiletter": {
         "type": "circle",
-        "properties": [
+        "paint": [
             {
                 "name": "circle-color",
                 "value": ["match", ["get", "case"], "Handicapvenlige: Nej", "#549ce6", "Handicapvenlige: Ja", "#40b365", "#ffffff"]
@@ -171,6 +184,7 @@
                 "name": "circle-radius",
                 "value": 6
             }
-        ]
+        ],
+        "layout":[]
     }
 }
