@@ -204,7 +204,7 @@
         "layout":[],
         "symbols": {
             "type": "dynamic",
-            "minZoom": 12,
+            "minZoom": 16,
             "maxZoom": 22, 
             "textProperty":"matrikelnummer",
             "paint":[],
