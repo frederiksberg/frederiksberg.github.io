@@ -254,6 +254,7 @@
             "type": "dynamic",
             "minZoom": 12,
             "maxZoom": 22, 
+            "textProperty":"navn",
             "paint":[],
             "layout": [
                 {
