@@ -12,6 +12,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
+            "textProperty":"navn",
             "paint": [],
             "layout": [
                 {
@@ -251,7 +252,7 @@
         "layout": [],
         "symbols": {
             "type": "dynamic",
-            "minZoom": 14,
+            "minZoom": 12,
             "maxZoom": 22, 
             "paint":[],
             "layout": [
