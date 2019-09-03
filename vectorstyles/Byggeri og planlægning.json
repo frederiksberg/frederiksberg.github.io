@@ -227,7 +227,11 @@
                     "value": "{matrikelnummer}"
                 }
             ]
-        }
+        },
+        "attributeSortOrder": [
+            "matrikelnummer",
+            "ejerforhold"
+        ]
     },
     "Nedsivningspotentiale": {
         "type": "fill",
