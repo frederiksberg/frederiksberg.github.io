@@ -123,7 +123,33 @@
             "minZoom": 15,
             "maxZoom": 22,
             "textProperty": "plan nr",
-            "paint": [],
+            "paint": [
+                {
+                    "name": "text-color",
+                    "value": [
+                        "match",
+                        [
+                            "get",
+                            "genneral anvendelse"
+                        ],
+                        "Blandet bolig og erhverv",
+                        "#819fc5",
+                        "Boligområde",
+                        "#db89c6",
+                        "Centerområde",
+                        "#b1d6ff",
+                        "Område til offentlige formål",
+                        "#ffcea3",
+                        "Erhvervsområde",
+                        "#ab8abb",
+                        "Rekreativt område",
+                        "#db8586",
+                        "Tekniske anlæg",
+                        "#d1e198",
+                        "#ffffff"
+                    ]
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
