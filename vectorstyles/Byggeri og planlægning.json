@@ -1,12 +1,71 @@
 {
+    "Matrikler": {
+        "type": "fill",
+        "paint": [
+            {
+                "name": "fill-color",
+                "value": "transparent"
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "#ca4848"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.6
+            }
+        ],
+        "layout": [],
+        "symbols": {
+            "type": "dynamic",
+            "minZoom": 16,
+            "maxZoom": 22,
+            "textProperty": "matrikelnummer",
+            "paint": [
+                {
+                    "name": "text-color",
+                    "value": "#ca4848"
+                },
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{matrikelnummer}"
+                }
+            ]
+        },
+        "attributeSortOrder": [
+            "matrikelnummer",
+            "ejerforhold"
+        ]
+    },
     "Bevarende lokalplaner": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "navn"],
-                    "Eksisterende bevarende lokalplaner", "#27b5b2",
-                    "Nye bevarende lokalplaner (byplanvedtægt 27)", "#ffa328",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "navn"
+                    ],
+                    "Eksisterende bevarende lokalplaner",
+                    "#27b5b2",
+                    "Nye bevarende lokalplaner (byplanvedtægt 27)",
+                    "#ffa328",
                     "#ffffff"
                 ]
             },
@@ -19,21 +78,33 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Kommuneplanrammer": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "genneral anvendelse"],
-                    "Blandet bolig og erhverv", "#819fc5",
-                    "Boligområde", "#db89c6",
-                    "Centerområde", "#b1d6ff",
-                    "Område til offentlige formål", "#ffcea3",
-                    "Erhvervsområde", "#ab8abb",
-                    "Rekreativt område", "#db8586",
-                    "Tekniske anlæg", "#d1e198",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "genneral anvendelse"
+                    ],
+                    "Blandet bolig og erhverv",
+                    "#819fc5",
+                    "Boligområde",
+                    "#db89c6",
+                    "Centerområde",
+                    "#b1d6ff",
+                    "Område til offentlige formål",
+                    "#ffcea3",
+                    "Erhvervsområde",
+                    "#ab8abb",
+                    "Rekreativt område",
+                    "#db8586",
+                    "Tekniske anlæg",
+                    "#d1e198",
                     "#ffffff"
                 ]
             },
@@ -46,13 +117,13 @@
                 "value": 0.6
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
             "type": "dynamic",
             "minZoom": 15,
-            "maxZoom": 22, 
-            "textProperty":"plan nr",
-            "paint":[],
+            "maxZoom": 22,
+            "textProperty": "plan nr",
+            "paint": [],
             "layout": [
                 {
                     "name": "text-field",
@@ -66,10 +137,18 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "genneral anvendelse"],
-                    "Boligområde", "#db89c6",
-                    "Centerområde", "#b1d6ff",                  
-                    "Tekniske anlæg", "#d1e198",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "genneral anvendelse"
+                    ],
+                    "Boligområde",
+                    "#db89c6",
+                    "Centerområde",
+                    "#b1d6ff",
+                    "Tekniske anlæg",
+                    "#d1e198",
                     "#ffffff"
                 ]
             },
@@ -82,7 +161,7 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Lokalplaner": {
         "type": "fill",
@@ -100,18 +179,27 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Lokalplan forslag": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "genneral anvendelse"],
-                    "Blandet bolig og erhverv", "#ff9561",
-                    "Boligområde", "#eecc9c",
-                    "Centerområde", "#8966d2",
-                    "Område til offentlige formål", "#ffcea3",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "genneral anvendelse"
+                    ],
+                    "Blandet bolig og erhverv",
+                    "#ff9561",
+                    "Boligområde",
+                    "#eecc9c",
+                    "Centerområde",
+                    "#8966d2",
+                    "Område til offentlige formål",
+                    "#ffcea3",
                     "#ffffff"
                 ]
             },
@@ -124,20 +212,31 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Temalokalokalplaner": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "plan nr"],
-                    "158", "#009932",
-                    "117", "#197bde",
-                    "115", "#ff9f48",
-                    "79 med tillæg", "#b70b0b",
-                    "126", "#a4c432",
-                    "136", "#ffeb57",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "plan nr"
+                    ],
+                    "158",
+                    "#009932",
+                    "117",
+                    "#197bde",
+                    "115",
+                    "#ff9f48",
+                    "79 med tillæg",
+                    "#b70b0b",
+                    "126",
+                    "#a4c432",
+                    "136",
+                    "#ffeb57",
                     "#ffffff"
                 ]
             },
@@ -150,18 +249,27 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Fredede og bevaringsværdige bygninger": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "bevaringsværdi"],
-                    "1 eller 2", "#007056",
-                    "3", "#197bde",
-                    "4", "#197bde",
-                    "Fredet bygning", "#B70B0B",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "bevaringsværdi"
+                    ],
+                    "1 eller 2",
+                    "#007056",
+                    "3",
+                    "#197bde",
+                    "4",
+                    "#197bde",
+                    "Fredet bygning",
+                    "#B70B0B",
                     "#ffffff"
                 ]
             },
@@ -174,16 +282,23 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Jordforurening": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "type"],
-                    "Jordforurening V1", "#033F88",
-                    "Jordforurening V2", "#E85921",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "type"
+                    ],
+                    "Jordforurening V1",
+                    "#033F88",
+                    "Jordforurening V2",
+                    "#E85921",
                     "#ffffff"
                 ]
             },
@@ -196,54 +311,29 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
-    },
-    "Matrikler": {
-        "type": "fill",
-        "paint": [
-            {
-                "name": "fill-color",
-                "value": "transparent"
-            },
-            {
-                "name": "fill-outline-color",
-                "value": "#ca4848"
-            },
-            {
-                "name": "fill-opacity",
-                "value": 0.6
-            }
-        ],
-        "layout":[],
-        "symbols": {
-            "type": "dynamic",
-            "minZoom": 15,
-            "maxZoom": 22, 
-            "textProperty":"matrikelnummer",
-            "paint":[],
-            "layout": [
-                {
-                    "name": "text-field",
-                    "value": "{matrikelnummer}"
-                }
-            ]
-        },
-        "attributeSortOrder": [
-            "matrikelnummer",
-            "ejerforhold"
-        ]
+        "layout": []
     },
     "Nedsivningspotentiale": {
         "type": "fill",
         "paint": [
             {
                 "name": "fill-color",
-                "value": ["match", ["get", "kategori"],
-                    "A", "#033f88",
-                    "B", "#009932",
-                    "C", "#ffeb57",
-                    "D", "#ff9f48",
-                    "E", "#b70b0b",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "kategori"
+                    ],
+                    "A",
+                    "#033f88",
+                    "B",
+                    "#009932",
+                    "C",
+                    "#ffeb57",
+                    "D",
+                    "#ff9f48",
+                    "E",
+                    "#b70b0b",
                     "#ffffff"
                 ]
             },
@@ -256,7 +346,7 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Rådighedsareal": {
         "type": "fill",
@@ -274,6 +364,6 @@
                 "value": 0.6
             }
         ],
-        "layout":[]
+        "layout": []
     }
 }
