@@ -126,6 +126,22 @@
             "paint": [
                 {
                     "name": "text-color",
+                    "value":"black"
+                },
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                },
+                {
+                    "name": "text-halo-color",
                     "value": [
                         "match",
                         [
