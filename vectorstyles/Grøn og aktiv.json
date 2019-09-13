@@ -152,16 +152,6 @@
         ],
         "layout":[]
     },
-    "Træer": {
-        "type": "circle",
-        "paint": [
-            {
-                "name": "circle-color",
-                "value": "#FBC02D"
-            }
-        ],
-        "layout":[]
-    },
     "Sportsanlæg": {
         "type": "fill",
         "paint": [

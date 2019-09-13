@@ -440,10 +440,6 @@ center = [12.52358, 55.68115, 13.0]
   [[maps.layers]]
   name = "Offentlige toiletter"
   provider_layer = "db1.offentlige_toiletter"
-
-  [[maps.layers]]
-  name = "Træer"
-  provider_layer = "db1.traer"
   
 # -------------
 # Trafik og Parkering
