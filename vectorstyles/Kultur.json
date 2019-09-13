@@ -5,6 +5,10 @@
             {
                 "name": "circle-color",
                 "value": "#660510"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": [],
@@ -39,6 +43,10 @@
             {
                 "name": "circle-color",
                 "value": "#b70b0b"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": [],
@@ -46,6 +54,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
+            "textProperty":"navn",
             "paint": [],
             "layout": [
                 {
@@ -72,6 +81,10 @@
             {
                 "name": "circle-color",
                 "value": "#033f88"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": [],
@@ -79,6 +92,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
+            "textProperty":"navn",
             "paint": [],
             "layout": [
                 {
@@ -105,6 +119,10 @@
             {
                 "name": "circle-color",
                 "value": "#ff9f48"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": [],
@@ -112,6 +130,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
+            "textProperty":"navn",
             "paint":[],
             "layout": [
                 {
@@ -153,6 +172,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
+            "textProperty":"navn",
             "paint":[],
             "layout": [
                 {
@@ -190,6 +210,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
+            "textProperty":"navn",
             "paint":[],
             "layout": [
                 {
