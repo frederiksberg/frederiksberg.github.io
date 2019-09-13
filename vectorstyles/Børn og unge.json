@@ -8,7 +8,7 @@
                     "match",
                     [
                         "get",
-                        "Institutionstype"
+                        "institutionstype"
                     ],
                     "Dagpleje",
                     "#b70b0b",
@@ -79,7 +79,44 @@
                 "value": 6
             }
         ],
-        "layout": []
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Skoler": {
         "type": "circle",
@@ -104,7 +141,44 @@
                 "value": 6
             }
         ],
-        "layout": []
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Gymnasier": {
         "type": "circle",
@@ -133,7 +207,7 @@
                     ],
                     "Kommunal",
                     "#b7138d",
-                    "Selvejede",
+                    "Selvejende",
                     "#581577",
                     "#FFFFFF"
                 ]
@@ -169,6 +243,10 @@
             {
                 "name": "circle-radius",
                 "value": 6
+            },
+            {
+                "name": "circle-outline-color",
+                "value": "white"
             }
         ],
         "layout":[]
