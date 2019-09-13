@@ -9,6 +9,10 @@
             {
                 "name": "line-width",
                 "value": 3
+            },
+            {
+                "name": "line-dasharray",
+                "value": [2,2]
             }
         ],
         "layout":[],
