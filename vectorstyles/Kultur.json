@@ -160,11 +160,11 @@
             },
             {
                 "name": "fill-opacity",
-                "value": 0.7
+                "value": 0.5
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": "#63aeff"
             }
         ],
         "layout": [],
