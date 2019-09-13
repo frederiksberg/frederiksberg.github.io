@@ -8,7 +8,7 @@
                     "match",
                     [
                         "get",
-                        "insitutationtype"
+                        "Institutionstype"
                     ],
                     "Dagpleje",
                     "#b70b0b",
@@ -22,9 +22,50 @@
                     "#197bde",
                     "#FFFFFF"
                 ]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
-        "layout": []
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Døgninstitutioner": {
         "type": "circle",
@@ -32,6 +73,10 @@
             {
                 "name": "circle-color",
                 "value": "#ffeb57"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": []
@@ -53,6 +98,10 @@
                     "#40b365",
                     "#FFFFFF"
                 ]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": []
@@ -63,6 +112,10 @@
             {
                 "name": "circle-color",
                 "value": "#197bde"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout": []
@@ -78,12 +131,16 @@
                         "get",
                         "ejerforhold"
                     ],
-                    "Kommunal Fritidsklub",
+                    "Kommunal",
                     "#b7138d",
-                    "Selvejede Fritidsklub",
+                    "Selvejede",
                     "#581577",
                     "#FFFFFF"
                 ]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout":[]
@@ -94,6 +151,10 @@
             {
                 "name": "circle-color",
                 "value": "#a4c432"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout":[]
@@ -104,6 +165,10 @@
             {
                 "name": "circle-color",
                 "value": "#406056"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout":[]
@@ -114,6 +179,10 @@
             {
                 "name": "circle-color",
                 "value": "#ffeb57"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
             }
         ],
         "layout":[]
