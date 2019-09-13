@@ -245,8 +245,12 @@
                 "value": 6
             },
             {
-                "name": "circle-outline-color",
+                "name": "circle-stroke-color",
                 "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 2
             }
         ],
         "layout":[]
