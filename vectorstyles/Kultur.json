@@ -17,7 +17,20 @@
             "minZoom": 14,
             "maxZoom": 22,
             "textProperty":"navn",
-            "paint": [],
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
