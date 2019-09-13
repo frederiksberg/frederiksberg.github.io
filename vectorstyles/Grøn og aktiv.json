@@ -16,7 +16,7 @@
             "type": "line",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
+            "textProperty":"rutenavn",
             "paint": [
                 {
                     "name": "text-halo-blur",
@@ -34,7 +34,7 @@
             "layout": [
                 {
                     "name": "text-field",
-                    "value": "{navn}"
+                    "value": "{rutenavn}"
                 },
                 {
                     "name": "text-anchor",
