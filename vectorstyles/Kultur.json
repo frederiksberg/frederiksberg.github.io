@@ -9,6 +9,14 @@
             {
                 "name": "circle-radius",
                 "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
         "layout": [],
@@ -60,6 +68,14 @@
             {
                 "name": "circle-radius",
                 "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
         "layout": [],
@@ -111,6 +127,14 @@
             {
                 "name": "circle-radius",
                 "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
         "layout": [],
@@ -162,6 +186,14 @@
             {
                 "name": "circle-radius",
                 "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
         "layout": [],
@@ -242,6 +274,14 @@
             {
                 "name": "circle-radius",
                 "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
         "layout": [],
