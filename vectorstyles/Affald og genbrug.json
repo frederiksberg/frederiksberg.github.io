@@ -5,9 +5,58 @@
             {
                 "name": "circle-color",
                 "value": "#673AB7"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Glas": {
         "type": "circle",
@@ -15,9 +64,58 @@
             {
                 "name": "circle-color",
                 "value": "#3F51B5"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"adresse",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{adresse}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Genbrugs-øer": {
         "type": "circle",
@@ -25,9 +123,58 @@
             {
                 "name": "circle-color",
                 "value": "#2196F3"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Apoteker": {
         "type": "circle",
@@ -35,9 +182,58 @@
             {
                 "name": "circle-color",
                 "value": "#00BCD4"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Malerbutikker": {
         "type": "circle",
@@ -45,8 +241,57 @@
             {
                 "name": "circle-color",
                 "value": "#009688"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
-        "layout":[]
+        "layout":[],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -434,7 +434,7 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": "#00BCD4"
             }
         ],
         "layout": []
@@ -580,7 +580,7 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": "#FFA000"
             }
         ],
         "layout": [],
