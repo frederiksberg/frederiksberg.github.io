@@ -15,7 +15,7 @@
                 "value": 0.6
             }
         ],
-        "layout": [],
+        "layout": [ ],
         "symbols": {
             "type": "dynamic",
             "minZoom": 16,
@@ -43,6 +43,10 @@
                 {
                     "name": "text-field",
                     "value": "{matrikelnummer}"
+                },
+                {
+                    "name": "text-size",
+                    "value": 14
                 }
             ]
         },
@@ -373,11 +377,24 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "type"
+                    ],
+                    "Jordforurening V1",
+                    "#033F88",
+                    "Jordforurening V2",
+                    "#E85921",
+                    "Jordforurening Nuancering",
+                    "#59d25b",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "fill-opacity",
-                "value": 0.6
+                "value": 0.5
             }
         ],
         "layout": []
@@ -408,11 +425,28 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "kategori"
+                    ],
+                    "A",
+                    "#033f88",
+                    "B",
+                    "#009932",
+                    "C",
+                    "#ffeb57",
+                    "D",
+                    "#ff9f48",
+                    "E",
+                    "#b70b0b",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "fill-opacity",
-                "value": 0.6
+                "value": 0.5
             }
         ],
         "layout": []
@@ -422,7 +456,18 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value": "#A4c432"
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "udgaaede"
+                    ],
+                    "true",
+                    "green",
+                    "false",
+                    "red",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "fill-outline-color",
