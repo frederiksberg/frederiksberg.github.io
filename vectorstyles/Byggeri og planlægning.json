@@ -294,34 +294,38 @@
         "layout": []
     },
     "Fredede og bevaringsværdige bygninger": {
-        "type": "fill",
+        "type": "circle",
         "paint": [
             {
-                "name": "fill-color",
+                "name": "circle-color",
                 "value": [
                     "match",
                     [
                         "get",
                         "bevaringsværdi"
                     ],
-                    "1 eller 2",
-                    "#007056",
+                    "1",
+                    "#253494",
+                    "2",
+                    "#2c7fb8",
                     "3",
-                    "#197bde",
+                    "#41b6c4",
                     "4",
-                    "#197bde",
-                    "Fredet bygning",
-                    "#B70B0B",
+                    "#a1dab4",
                     "#ffffff"
                 ]
             },
             {
-                "name": "fill-outline-color",
-                "value": "black"
+                "name": "circle-radius",
+                "value": 6
             },
             {
-                "name": "fill-opacity",
-                "value": 0.6
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
             }
         ],
         "layout": []
