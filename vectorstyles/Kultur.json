@@ -219,33 +219,7 @@
                 "value": "#63aeff"
             }
         ],
-        "layout": [],
-        "symbols": {
-            "type": "dynamic",
-            "minZoom": 14,
-            "maxZoom": 22,
-            "textProperty": "navn",
-            "paint": [
-                {
-                    "name": "text-halo-blur",
-                    "value": 0
-                },
-                {
-                    "name": "text-halo-color",
-                    "value": "white"
-                },
-                {
-                    "name": "text-halo-width",
-                    "value": 2
-                }
-            ],
-            "layout": [
-                {
-                    "name": "text-field",
-                    "value": "{navn}"
-                }
-            ]
-        }
+        "layout": []
     },
     "Offentlige toiletter": {
         "type": "circle",

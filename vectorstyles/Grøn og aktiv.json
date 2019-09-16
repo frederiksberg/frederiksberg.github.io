@@ -12,15 +12,18 @@
             },
             {
                 "name": "line-dasharray",
-                "value": [2,2]
+                "value": [
+                    2,
+                    2
+                ]
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
             "type": "line",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"rutenavn",
+            "textProperty": "rutenavn",
             "paint": [
                 {
                     "name": "text-halo-blur",
@@ -53,7 +56,6 @@
                 }
             ]
         }
-        
     },
     "Aktivitetsspots": {
         "type": "circle",
@@ -67,12 +69,12 @@
                 "value": 6
             }
         ],
-        "layout":[],
+        "layout": [],
         "symbols": {
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
+            "textProperty": "navn",
             "paint": [
                 {
                     "name": "text-halo-blur",
@@ -114,7 +116,44 @@
                 "value": "#3F51B5"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Idrætshaller": {
         "type": "circle",
@@ -124,7 +163,44 @@
                 "value": "#2196F3"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Legepladser": {
         "type": "circle",
@@ -134,7 +210,44 @@
                 "value": "#009688"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Åbne friarealer": {
         "type": "circle",
@@ -144,7 +257,44 @@
                 "value": "#8BC34A"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Vandposter": {
         "type": "circle",
@@ -154,7 +304,44 @@
                 "value": "#CDDC39"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty":"beliggenhed",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{beliggenhed}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Træer": {
         "type": "circle",
@@ -164,7 +351,7 @@
                 "value": "#FBC02D"
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Sportsanlæg": {
         "type": "fill",
@@ -180,9 +367,9 @@
             {
                 "name": "fill-outline-color",
                 "value": "black"
-            }         
+            }
         ],
-        "layout":[]
+        "layout": []
     },
     "Kirkegårde": {
         "type": "fill",
@@ -197,10 +384,10 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": "#8cc2ff"
             }
         ],
-        "layout":[]
+        "layout": []
     },
     "Kolonihaver": {
         "type": "fill",
@@ -216,9 +403,46 @@
             {
                 "name": "fill-outline-color",
                 "value": "black"
-            }           
+            }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Fritløbsområder til hunde": {
         "type": "fill",
@@ -236,7 +460,44 @@
                 "value": "#009932"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "dynamic",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Parker og haver": {
         "type": "fill",
@@ -254,20 +515,105 @@
                 "value": "black"
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "dynamic",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     },
     "Offentlige toiletter": {
         "type": "circle",
         "paint": [
             {
                 "name": "circle-color",
-                "value": ["match", ["get", "case"], "Handicapvenlige: Nej", "#549ce6", "Handicapvenlige: Ja", "#40b365", "#ffffff"]
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "case"
+                    ],
+                    "Handicapvenlige: Nej",
+                    "#549CE6",
+                    "Handicapvenlige: Ja",
+                    "#40B365",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "circle-radius",
                 "value": 6
             }
         ],
-        "layout":[]
+        "layout": [],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
     }
 }
