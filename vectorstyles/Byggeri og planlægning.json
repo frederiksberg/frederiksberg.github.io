@@ -71,11 +71,22 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "navn"
+                    ],
+                    "Eksisterende bevarende lokalplaner",
+                    "#27b5b2",
+                    "Nye bevarende lokalplaner (byplanvedtægt 27)",
+                    "#ffa328",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "fill-opacity",
-                "value": 0.6
+                "value": 0.5
             }
         ],
         "layout": []
@@ -126,7 +137,7 @@
             "paint": [
                 {
                     "name": "text-color",
-                    "value":"black"
+                    "value": "black"
                 },
                 {
                     "name": "text-halo-blur",
@@ -210,7 +221,32 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value": "#e85921"
+                "value":  [
+                    "match",
+                    [
+                        "get",
+                        "genneral anvendelse"
+                    ],
+                    "Blandet bolig og erhverv",
+                    "#ff5500",
+                    "Boligområde",
+                    "#d06800",
+                    "Centerområde",
+                    "#ff3939",
+                    "Centerområde og butikker",
+                    "#e75fe3",
+                    "Erhvervsområde",
+                    "#70ffff",
+                    "Område til offentlige formål",
+                    "#efef00",
+                    "Rekreativt område",
+                    "#59d25b",
+                    "Tekniske anlæg",
+                    "#a0a0a0",
+                    "Tekniske anlæg og Trafik anlæg",
+                    "#748d6d",
+                    "#f2f2f2"
+                ]
             },
             {
                 "name": "fill-outline-color",
@@ -228,30 +264,15 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value": [
-                    "match",
-                    [
-                        "get",
-                        "genneral anvendelse"
-                    ],
-                    "Blandet bolig og erhverv",
-                    "#ff9561",
-                    "Boligområde",
-                    "#eecc9c",
-                    "Centerområde",
-                    "#8966d2",
-                    "Område til offentlige formål",
-                    "#ffcea3",
-                    "#ffffff"
-                ]
+                "value": "#748d6d"
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": "#748d6d"
             },
             {
                 "name": "fill-opacity",
-                "value": 0.6
+                "value": 0.5
             }
         ],
         "layout": []
@@ -345,6 +366,8 @@
                     "#033F88",
                     "Jordforurening V2",
                     "#E85921",
+                    "Jordforurening Nuancering",
+                    "#59d25b",
                     "#ffffff"
                 ]
             },
