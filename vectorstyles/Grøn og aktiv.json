@@ -225,7 +225,7 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value": "#616161"
+                "value": "#009932"
             },
             {
                 "name": "fill-opacity",
@@ -233,7 +233,7 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": "#009932"
             }
         ],
         "layout":[]
