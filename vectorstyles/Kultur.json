@@ -16,7 +16,7 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
+            "textProperty": "navn",
             "paint": [
                 {
                     "name": "text-halo-blur",
@@ -67,8 +67,21 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
-            "paint": [],
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
@@ -105,8 +118,21 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
-            "paint": [],
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
@@ -143,8 +169,21 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
-            "paint":[],
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
@@ -182,11 +221,24 @@
         ],
         "layout": [],
         "symbols": {
-            "type": "point",
+            "type": "dynamic",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
-            "paint":[],
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
@@ -223,8 +275,21 @@
             "type": "point",
             "minZoom": 14,
             "maxZoom": 22,
-            "textProperty":"navn",
-            "paint":[],
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
@@ -276,7 +341,30 @@
             },
             {
                 "name": "fill-outline-color",
-                "value": "black"
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "navn"
+                    ],
+                    "Lindevangskolen",
+                    "#033F88",
+                    "Søndermarkskolen",
+                    "#B7138D",
+                    "Frederiksberg Rådhushal",
+                    "#63AEFF",
+                    "Skolen ved Søerne",
+                    "#FF9F48",
+                    "Skolen på Duevej",
+                    "#581577",
+                    "Ny Hollænderskolen",
+                    "#009932",
+                    "Bülowsvejhallen",
+                    "#B70B0B",
+                    "Skolen på Nyelandsvej",
+                    "#A4C432",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "fill-opacity",
@@ -287,9 +375,22 @@
         "symbols": {
             "type": "dynamic",
             "minZoom": 12,
-            "maxZoom": 22, 
-            "textProperty":"navn",
-            "paint":[],
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
             "layout": [
                 {
                     "name": "text-field",
