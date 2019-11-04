@@ -462,9 +462,9 @@
                         "get",
                         "udgaaede"
                     ],
-                    "true",
+                    true,
                     "green",
-                    "false",
+                    false,
                     "red",
                     "#ffffff"
                 ]
