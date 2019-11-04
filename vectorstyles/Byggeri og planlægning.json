@@ -460,11 +460,11 @@
                     "match",
                     [
                         "get",
-                        "udgaaede"
+                        "Udgåede"
                     ],
-                    "true",
+                    "Ja",
                     "green",
-                    "false",
+                    "Nej",
                     "red",
                     "#ffffff"
                 ]
