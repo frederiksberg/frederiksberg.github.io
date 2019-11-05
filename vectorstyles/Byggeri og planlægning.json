@@ -15,7 +15,7 @@
                 "value": 0.6
             }
         ],
-        "layout": [ ],
+        "layout": [],
         "symbols": {
             "type": "dynamic",
             "minZoom": 16,
@@ -106,20 +106,24 @@
                         "get",
                         "Generel anvendelse"
                     ],
-                    "Blandet bolig og erhverv",
+                    "Boligområder - åben-lav/tæt-lav",
                     "#819fc5",
-                    "Boligområde",
+                    "Boligområder - etageboliger",
                     "#db89c6",
-                    "Centerområde",
+                    "Blandede byfunktioner",
                     "#b1d6ff",
-                    "Område til offentlige formål",
+                    "Blandet bolig- og erhvervsområde",
                     "#ffcea3",
-                    "Erhvervsområde",
+                    "Erhvervsområder",
                     "#ab8abb",
-                    "Rekreativt område",
+                    "Offentlige formål",
                     "#db8586",
                     "Tekniske anlæg",
                     "#d1e198",
+                    "Banearealer",
+                    "#FFEB3B",
+                    "Rekreative formål",
+                    "#FFC107",
                     "#ffffff"
                 ]
             },
@@ -161,7 +165,7 @@
                         "match",
                         [
                             "get",
-                            "generel anvendelse"
+                            "Generel anvendelse"
                         ],
                         "Boligområder - åben-lav/tæt-lav",
                         "#819fc5",
@@ -229,7 +233,7 @@
         "paint": [
             {
                 "name": "fill-color",
-                "value":  [
+                "value": [
                     "match",
                     [
                         "get",
