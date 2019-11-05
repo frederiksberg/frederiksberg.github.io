@@ -18,6 +18,62 @@
         "layout": [ ],
         "symbols": null
     },
+    "P-automater": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": "#660510"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 16,
+            "maxZoom": 22,
+            "textProperty": "adresse",
+            "paint": [
+                {
+                    "name": "text-color",
+                    "value": "#ca4848"
+                },
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{adresse}"
+                },
+                {
+                    "name": "text-size",
+                    "value": 14
+                }
+            ]
+        }
+    },
     "Matrikler": {
         "type": "fill",
         "paint": [
