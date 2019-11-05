@@ -163,20 +163,24 @@
                             "get",
                             "generel anvendelse"
                         ],
-                        "Blandet bolig og erhverv",
+                        "Boligområder - åben-lav/tæt-lav",
                         "#819fc5",
-                        "Boligområde",
+                        "Boligområder - etageboliger",
                         "#db89c6",
-                        "Centerområde",
+                        "Blandede byfunktioner",
                         "#b1d6ff",
-                        "Område til offentlige formål",
+                        "Blandet bolig- og erhvervsområde",
                         "#ffcea3",
-                        "Erhvervsområde",
+                        "Erhvervsområder",
                         "#ab8abb",
-                        "Rekreativt område",
+                        "Offentlige formål",
                         "#db8586",
                         "Tekniske anlæg",
                         "#d1e198",
+                        "Banearealer",
+                        "#FFEB3B",
+                        "Rekreative formål",
+                        "#FFC107",
                         "#ffffff"
                     ]
                 }
@@ -198,7 +202,7 @@
                     "match",
                     [
                         "get",
-                        "generel anvendelse"
+                        "Generel anvendelse"
                     ],
                     "Boligområde",
                     "#db89c6",
@@ -229,7 +233,7 @@
                     "match",
                     [
                         "get",
-                        "generel anvendelse"
+                        "Generel anvendelse"
                     ],
                     "Blandet bolig og erhverv",
                     "#ff5500",
