@@ -1,0 +1,77 @@
+{
+    "Parkeringszone": {
+        "type": "fill",
+        "paint": [
+            {
+                "name": "fill-color",
+                "value": "#bfe5cc"
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "#ca4848"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            }
+        ],
+        "layout": [ ],
+        "symbols": null
+    },
+    "Matrikler": {
+        "type": "fill",
+        "paint": [
+            {
+                "name": "fill-color",
+                "value": "transparent"
+            },
+            {
+                "name": "fill-outline-color",
+                "value": "#ca4848"
+            },
+            {
+                "name": "fill-opacity",
+                "value": 0.5
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "dynamic",
+            "minZoom": 16,
+            "maxZoom": 22,
+            "textProperty": "matrikelnummer",
+            "paint": [
+                {
+                    "name": "text-color",
+                    "value": "#ca4848"
+                },
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{matrikelnummer}"
+                },
+                {
+                    "name": "text-size",
+                    "value": 14
+                }
+            ]
+        },
+        "attributeSortOrder": [
+            "matrikelnummer",
+            "ejerforhold"
+        ]
+    }
+}
