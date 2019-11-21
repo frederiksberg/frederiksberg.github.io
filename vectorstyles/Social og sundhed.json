@@ -1,0 +1,190 @@
+{
+    "Boliger til ældre og handicappede": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": "#426fa8"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Sociale institutioner": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": "#ffeb57"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Offentlig handicapparkering": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "tidbegraenset"
+                    ],
+                    "ja",
+                    "#a4c432",
+                    "nej",
+                    "#007056",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "vejnavn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{vejnavn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    }
+}

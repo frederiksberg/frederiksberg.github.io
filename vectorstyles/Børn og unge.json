@@ -18,8 +18,6 @@
                     "#ffeb57",
                     "Vuggestue",
                     "#ff9f48",
-                    "Private institutioner",
-                    "#197bde",
                     "#FFFFFF"
                 ]
             },
@@ -34,6 +32,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -93,6 +95,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -163,6 +169,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -222,6 +232,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -292,6 +306,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -351,6 +369,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -410,6 +432,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -469,6 +495,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],

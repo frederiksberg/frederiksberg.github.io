@@ -24,6 +24,10 @@ ssl_mode = "require"
   tablename = "aabne_friarealer"
 
   [[providers.layers]]
+  name = "fredet_bygning"
+  tablename = "fredet_bygning"
+
+  [[providers.layers]]
   name = "vandposter"
   tablename = "vandposter"
 
@@ -192,8 +196,8 @@ ssl_mode = "require"
   tablename = "fritidsklubber"
 
   [[providers.layers]]
-  name = "fredet_bevaringsvaerdig_bygning"
-  tablename = "fredet_bevaringsvaerdig_bygning"
+  name = "bevaringsvaerdig_bygning"
+  tablename = "bevaringsvaerdig_bygning"
 
   [[providers.layers]]
   name = "elbilstandere"
@@ -278,8 +282,12 @@ center = [12.52358, 55.68115, 13.0]
   provider_layer = "db1.temalokalplaner"
 
   [[maps.layers]]
-  name = "Fredede og bevaringsværdige bygninger"
-  provider_layer = "db1.fredet_bevaringsvaerdig_bygning"
+  name = "Bevaringsværdige bygninger"
+  provider_layer = "db1.bevaringsvaerdig_bygning"
+
+  [[maps.layers]]
+  name = "Fredede bygninger"
+  provider_layer = "db1.fredet_bygning"
 
   [[maps.layers]]
   name = "Jordforurening"

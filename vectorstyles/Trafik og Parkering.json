@@ -40,14 +40,10 @@
         "layout": [ ],
         "symbols": {
             "type": "point",
-            "minZoom": 16,
+            "minZoom": 14,
             "maxZoom": 22,
             "textProperty": "adresse",
             "paint": [
-                {
-                    "name": "text-color",
-                    "value": "#ca4848"
-                },
                 {
                     "name": "text-halo-blur",
                     "value": 0
@@ -67,13 +63,315 @@
                     "value": "{adresse}"
                 },
                 {
-                    "name": "text-size",
-                    "value": 14
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
                 }
             ]
         }
     },
-    "Matrikler": {
+    "P-licens-salgssteder": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": "#660510"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Cykelpumpestationer": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value":"#778ea7"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "ejer",
+            "paint": [              
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{ejer}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Bycykel-ladestationer": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value":"#63aeff"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "navn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{navn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Delebilpladser": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value":"#197bdd"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "klub",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{klub}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Vandposter": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value":"#033f88"
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "beliggenhed",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{beliggenhed}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Matrikel": {
         "type": "fill",
         "paint": [
             {
@@ -124,5 +422,227 @@
                 }
             ]
         }
+    },
+    "Offentlig handicapparkering": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "tidbegraenset"
+                    ],
+                    "ja",
+                    "#a4c432",
+                    "nej",
+                    "#007056",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "vejnavn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{vejnavn}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Elbilstandere": {
+        "type": "circle",
+        "paint": [
+            {
+                "name": "circle-color",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "institutionstype"
+                    ],
+                    "E.ON",
+                    "orange",
+                    "Clever",
+                    "yellow",
+                    "#FFFFFF"
+                ]
+            },
+            {
+                "name": "circle-radius",
+                "value": 6
+            },
+            {
+                "name": "circle-stroke-color",
+                "value": "white"
+            },
+            {
+                "name": "circle-stroke-width",
+                "value": 1
+            }
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "point",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "operatoer",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{operatoer}"
+                },
+                {
+                    "name": "text-anchor",
+                    "value": "bottom-left"
+                },
+                {
+                    "name": "text-offset",
+                    "value": [
+                        0.5,
+                        0
+                    ]
+                }
+            ]
+        }
+    },
+    "Private veje": {
+        "type": "line",
+        "paint": [
+            {
+                "name": "line-color",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "vejstatus"
+                    ],
+                    "Privat fællesvej, By",
+                    "#ed8960",
+                    "Privat vej (1 ejer)",
+                    "#8b484e",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "line-width",
+                "value": 3
+            }         
+        ],
+        "layout": [ ],
+        "symbols": {
+            "type": "line",
+            "minZoom": 14,
+            "maxZoom": 22,
+            "textProperty": "vejnavn",
+            "paint": [
+                {
+                    "name": "text-halo-blur",
+                    "value": 0
+                },
+                {
+                    "name": "text-halo-color",
+                    "value": "white"
+                },
+                {
+                    "name": "text-halo-width",
+                    "value": 2
+                }
+            ],
+            "layout": [
+                {
+                    "name": "text-field",
+                    "value": "{vejnavn}"
+                },
+                {
+                    "name": "text-size",
+                    "value": 14
+                }
+            ]
+        }
+    },
+    "Cykelstier": {
+        "type": "line",
+        "paint": [
+            {
+                "name": "line-color",
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "type"
+                    ],
+                    "Cykelsti",
+                    "#63aeff",
+                    "Cykelbane",
+                    "#426fa8",
+                    "Den Grønne Sti",
+                    "#40b365",
+                    "#ffffff"
+                ]
+            },
+            {
+                "name": "line-width",
+                "value": 3
+            }         
+        ],
+        "layout": [ ]
     }
 }

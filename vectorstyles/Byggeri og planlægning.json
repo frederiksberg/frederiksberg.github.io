@@ -104,26 +104,26 @@
                     "match",
                     [
                         "get",
-                        "Generel anvendelse"
+                        "generel anvendelse"
                     ],
                     "Boligområder - åben-lav/tæt-lav",
-                    "#819fc5",
+                    "#f6e5cd",
                     "Boligområder - etageboliger",
-                    "#db89c6",
+                    "#e7b37f",
                     "Blandede byfunktioner",
-                    "#b1d6ff",
+                    "#ff9e93",
                     "Blandet bolig- og erhvervsområde",
-                    "#ffcea3",
+                    "#ffcab0",
                     "Erhvervsområder",
-                    "#ab8abb",
+                    "#cde0f3",
                     "Offentlige formål",
-                    "#db8586",
+                    "#ffffbf",
                     "Tekniske anlæg",
-                    "#d1e198",
+                    "#c6d7c1",
                     "Banearealer",
-                    "#FFEB3B",
+                    "#bebdbd",
                     "Rekreative formål",
-                    "#FFC107",
+                    "#d8f5c6",
                     "#ffffff"
                 ]
             },
@@ -161,32 +161,7 @@
                 },
                 {
                     "name": "text-halo-color",
-                    "value": [
-                        "match",
-                        [
-                            "get",
-                            "Generel anvendelse"
-                        ],
-                        "Boligområder - åben-lav/tæt-lav",
-                        "#819fc5",
-                        "Boligområder - etageboliger",
-                        "#db89c6",
-                        "Blandede byfunktioner",
-                        "#b1d6ff",
-                        "Blandet bolig- og erhvervsområde",
-                        "#ffcea3",
-                        "Erhvervsområder",
-                        "#ab8abb",
-                        "Offentlige formål",
-                        "#db8586",
-                        "Tekniske anlæg",
-                        "#d1e198",
-                        "Banearealer",
-                        "#FFEB3B",
-                        "Rekreative formål",
-                        "#FFC107",
-                        "#ffffff"
-                    ]
+                    "value":"white"
                 }
             ],
             "layout": [
@@ -206,7 +181,7 @@
                     "match",
                     [
                         "get",
-                        "Generel anvendelse"
+                        "generel anvendelse"
                     ],
                     "Boligområde",
                     "#db89c6",
@@ -237,7 +212,7 @@
                     "match",
                     [
                         "get",
-                        "Generel anvendelse"
+                        "generel anvendelse"
                     ],
                     "Blandet bolig og erhverv",
                     "#ff5500",
@@ -335,7 +310,7 @@
                     "match",
                     [
                         "get",
-                        "bevaringsværdi"
+                        "bevaringsvaerdi"
                     ],
                     "1",
                     "#253494",
@@ -468,7 +443,7 @@
                     "match",
                     [
                         "get",
-                        "Udgåede"
+                        "udgaaede"
                     ],
                     "Ja",
                     "green",
