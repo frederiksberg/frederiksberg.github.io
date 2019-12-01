@@ -19,7 +19,7 @@
             {
               "name": "Bymodel",
               "type": "3d-tiles",
-              "ionAssetId": 57649,
+              "ionAssetId": 58433,
               "featureInfoTemplate": {
                 "name": "Hello",
                 "template": "Hello"
@@ -33,7 +33,7 @@
             {
               "name": "Terræn",
               "type": "cesium-terrain",
-              "ionAssetId": 57610
+              "ionAssetId": 58428
             }
           ]
         },
