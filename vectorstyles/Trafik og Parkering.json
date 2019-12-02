@@ -35,6 +35,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -94,6 +98,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -153,6 +161,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -212,6 +224,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -271,6 +287,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -330,6 +350,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -452,6 +476,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -502,7 +530,7 @@
                     "match",
                     [
                         "get",
-                        "institutionstype"
+                        "operatoer"
                     ],
                     "E.ON",
                     "orange",
@@ -522,6 +550,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -583,7 +615,11 @@
             },
             {
                 "name": "line-width",
-                "value": 3
+                "value": 4
+            },
+            {
+                "name": "line-opacity",
+                "value": 0.6
             }         
         ],
         "layout": [ ],
@@ -640,8 +676,12 @@
             },
             {
                 "name": "line-width",
-                "value": 3
-            }         
+                "value": 4
+            },
+            {
+                "name": "line-opacity",
+                "value": 0.6
+            }       
         ],
         "layout": [ ]
     }

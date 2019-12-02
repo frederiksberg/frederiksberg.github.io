@@ -17,6 +17,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -76,6 +80,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],
@@ -126,12 +134,12 @@
                     "match",
                     [
                         "get",
-                        "tidbegraenset"
+                        "case"
                     ],
-                    "ja",
-                    "#a4c432",
-                    "nej",
-                    "#007056",
+                    "Handicapvenlige: Nej",
+                    "#549CE6",
+                    "Handicapvenlige: Ja",
+                    "#40B365",
                     "#ffffff"
                 ]
             },
@@ -146,6 +154,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [ ],

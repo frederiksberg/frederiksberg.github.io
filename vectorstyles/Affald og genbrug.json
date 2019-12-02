@@ -17,6 +17,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -76,6 +80,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -135,6 +143,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -194,6 +206,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],
@@ -253,6 +269,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout":[],

@@ -4,11 +4,38 @@
         "paint": [
             {
                 "name": "line-color",
-                "value": "#BF360C"
+                "value": [
+                    "match",
+                    [
+                        "get",
+                        "rutenavn"
+                    ],
+                    "Rute 1 - Bakkeintervaller, svær",
+                    "#f44336",
+                    "Rute 2 - Bakkeintervaller, middel svær",
+                    "#9c27b0",
+                    "Rute 3 - Bakkeintervaller, middel let",
+                    "#3f51b5",
+                    "Rute 4 - Bakkeintervaller, let",
+                    "#2196f3",
+                    "Rute 5 - Udholdenhed, Frederiksberg Have",
+                    "#00bcd4",
+                    "Rute 6 - Udholdenhed, Søndermarken",
+                    "#009688",
+                    "Rute 7 - Lille rundstrækning",
+                    "#4caf50",
+                    "Rute 8 - Forbindelsesrute",
+                    "#cddc39",
+                    "Liv og Lys",
+                    "#ffeb3b",
+                    "Hjertestien",
+                    "#ffc107",
+                    "#ffffff"
+                ]
             },
             {
                 "name": "line-width",
-                "value": 3
+                "value": 4
             },
             {
                 "name": "line-dasharray",
@@ -88,6 +115,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -147,6 +178,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -206,6 +241,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -265,6 +304,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -324,6 +367,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -383,6 +430,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
@@ -664,6 +715,10 @@
             {
                 "name": "circle-stroke-width",
                 "value": 1
+            },
+            {
+                "name": "circle-opacity",
+                "value": 0.6
             }
         ],
         "layout": [],
