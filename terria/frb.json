@@ -39,6 +39,7 @@
               "name": "Matrikel",
               "type": "mvt",
               "dataUrl": "https://tegola.frb-data.dk/maps/Trafik og Parkering/Matrikel/{z}/{x}/{y}.pbf"
+              "layer": "Matrikel"
             }
           ]
         }
