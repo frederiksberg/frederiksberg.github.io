@@ -1,0 +1,43 @@
+{
+  "homeCamera": {
+    "north": 55.73,
+    "east": 12.58,
+    "south": 55.62,
+    "west": 12.46
+  },
+  "catalog": [
+    {
+      "name": "Frederiksberg",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Frederiksberg i 3D",
+          "type": "group",
+          "items": [
+            {
+              "name": "Bymodel",
+              "type": "3d-tiles",
+              "ionAssetId": 58433,
+              "featureInfoTemplate": {
+                "name": "Hello",
+                "template": "Hello"
+              }
+            },
+            {
+              "name": "Punktsky",
+              "type": "3d-tiles",
+              "ionAssetId": 56360
+            },
+            {
+              "name": "Terræn",
+              "type": "cesium-terrain",
+              "ionAssetId": 58428
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
