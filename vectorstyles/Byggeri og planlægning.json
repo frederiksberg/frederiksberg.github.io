@@ -244,7 +244,10 @@
                 "value": 0.6
             }
         ],
-        "layout": []
+        "layout": [],
+        "attributeSortOrder":[
+            "plannr","plannavn","andvedelse"
+        ]
     },
     "Lokalplan forslag": {
         "type": "fill",
