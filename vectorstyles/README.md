@@ -59,6 +59,7 @@ The style definition contains layer names as keys, which maps to the name of the
 | paint (required)     | Paint properties that should be applied to the layer       |   Refer to specific layer type for possible properties eg. fill [Mapbox Style Guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers-fill) |
 | layout (required) | Layout properties that should be applied to the layer      |    Refer to specific layer type for possible properties eg. fill [Mapbox Style Guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers-fill) |
 | symbols (optional) | Optionally adds a symbol layer on top of the layer, which can show labels       |    {Object} / None |
+| attributeSortOrder (optional) | Optionally sort layer properties, so the ones listed are placed at the top       |    [array] / None |
 
 ### Symbol properties
 
@@ -73,7 +74,7 @@ type (required)     | label type  | [ 'point' , 'line' , 'dynamic' ]  |
 
 #### Label type
 | Value        | Definition           | 
-| ------------- |-------------| -----|
+| ------------- |-----------------|
 | point    | Refer to [ symbol-placement ] in [Mapbox Style Guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers-symbol) |
 | line     | Refer to [ symbol-placement ] in [Mapbox Style Guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers-symbol)  |
 | dynamic     | useful for polygon layers, where you want the label to always be visable  |
