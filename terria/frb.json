@@ -15,6 +15,8 @@
         {
           "name": "Frederiksberg i 3D",
           "type": "group",
+          "preserveOrder": true,
+          "isOpen": true,
           "items": [
             {
               "name": "Bymodel",
