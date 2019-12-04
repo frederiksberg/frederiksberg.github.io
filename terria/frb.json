@@ -36,10 +36,9 @@
               "ionAssetId": 58428
             },
             {
-              "name": "Matrikel",
-              "type": "mvt",
-              "dataUrl": "https://tegola.frb-data.dk/maps/Trafik og Parkering/Matrikel/{z}/{x}/{y}.pbf",
-              "layer": "matrikel"
+              "name": "Overflade uden bygninger",
+              "type": "cesium-terrain",
+              "ionAssetId": 59074
             }
           ]
         }
