@@ -18,10 +18,10 @@
 
         var viewer = new Cesium.Viewer('cesiumContainer', {
             terrainProvider: new Cesium.CesiumTerrainProvider({
-                url: Cesium.IonResource.fromAssetId(58428)
+                url: Cesium.IonResource.fromAssetId(59074)
             }),
             shadows: true,
-            terrainShadows: Cesium.ShadowMode.RECEIVE_ONLY,
+            terrainShadows: Cesium.ShadowMode.ENABLED,
         });
         
         var shadowMap = viewer.shadowMap;
