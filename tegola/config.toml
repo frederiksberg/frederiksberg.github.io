@@ -196,10 +196,6 @@ ssl_mode = "require"
   tablename = "fritidsklubber"
 
   [[providers.layers]]
-  name = "bevaringsvaerdig_bygning"
-  tablename = "bevaringsvaerdig_bygning"
-
-  [[providers.layers]]
   name = "elbilstandere"
   tablename = "elbilstandere"
 
