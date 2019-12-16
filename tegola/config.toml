@@ -283,11 +283,7 @@ center = [12.52358, 55.68115, 13.0]
 
   [[maps.layers]]
   name = "Bevaringsværdige bygninger"
-  provider_layer = "db1.bevaringsvaerdig_bygning"
-
-  [[maps.layers]]
-  name = "Fredede bygninger"
-  provider_layer = "db1.fredet_bygning"
+  provider_layer = "db1.fredet_bevaringsvaerdig_bygning"
 
   [[maps.layers]]
   name = "Jordforurening"
