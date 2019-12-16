@@ -346,11 +346,11 @@ center = [12.52358, 55.68115, 13.0]
   provider_layer = "db1.multibaner"
 
   [[maps.layers]]
-  name = "Skoledistrikter 0.-5. klasse (2016/17)"
+  name = "Skoledistrikter 0.-5. klasse"
   provider_layer = "db1.skoledistrikter_0_5"
 
   [[maps.layers]]
-  name = "Skoledistrikter 6.-9. klasse (2016/17)"
+  name = "Skoledistrikter 6.-9. klasse"
   provider_layer = "db1.skoledistrikter_6_9"
 
 

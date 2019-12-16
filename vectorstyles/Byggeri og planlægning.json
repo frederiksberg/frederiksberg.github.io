@@ -246,7 +246,7 @@
         ],
         "layout": [],
         "attributeSortOrder":[
-            "plannr","plannavn","andvedelse"
+            "plan nr","plannavn","generel anvendelse"
         ]
     },
     "Lokalplan forslag": {
@@ -315,13 +315,13 @@
                         "get",
                         "bevaringsvaerdi"
                     ],
-                    "1",
+                    1,
                     "#253494",
-                    "2",
+                    2,
                     "#2c7fb8",
-                    "3",
+                    3,
                     "#41b6c4",
-                    "4",
+                    4,
                     "#a1dab4",
                     "#ffffff"
                 ]
