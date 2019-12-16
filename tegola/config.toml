@@ -24,7 +24,7 @@ ssl_mode = "require"
   tablename = "aabne_friarealer"
 
   [[providers.layers]]
-  name = "fredet_bygning"
+  name = "fredet_bevaringsvaerdig_bygning"
   tablename = "fredet_bevaringsvaerdig_bygning"
 
   [[providers.layers]]
