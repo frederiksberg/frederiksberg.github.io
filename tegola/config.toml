@@ -25,7 +25,7 @@ ssl_mode = "require"
 
   [[providers.layers]]
   name = "fredet_bygning"
-  tablename = "fredet_bygning"
+  tablename = "fredet_bevaringsvaerdig_bygning"
 
   [[providers.layers]]
   name = "vandposter"
