@@ -34,7 +34,7 @@ Example style
             "textProperty":"navn",
             "paint": [               
                 {
-                    "name": "icon-color",
+                    "name": "icon-color", //Key name
                     "value": "black"
                 }
             ],
@@ -50,6 +50,16 @@ Example style
 ```
 
 The style definition contains layer names as keys, which maps to the name of the layer in Tegola.
+
+Paint and layout properties are in the form of 
+```
+{
+    "name": "text-field",
+    "value": "{navn}"
+}
+```
+Where name is the key from [Mapbox Style Guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers)  
+and value is value
 
 ### Layer properties
 
