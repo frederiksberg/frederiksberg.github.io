@@ -540,7 +540,7 @@
             ]
         }
     },
-    "Skoledistrikter 0.-5. klasse": {
+    "Skoledistrikter": {
         "type": "fill",
         "paint": [
             {
@@ -552,112 +552,23 @@
                         "skolenavn"
                     ],
                     "Lindevangskolen",
-                    "#033F88",
+                    "#2761A8",
                     "Søndermarkskolen",
                     "#B7138D",
-                    "Frederiksberg Rådhushal",
-                    "#b1d6ff",
-                    "Skolen ved Søerne",
+                    "Skole ved Søerne",
                     "#FF9F48",
                     "Skolen på Duevej",
                     "#581577",
                     "Ny Hollænderskolen",
                     "#009932",
-                    "Bülowsvejhallen",
-                    "#db8586",
                     "Skolen på Nyelandsvej",
                     "#A4C432",
-                    "Skolen ved Bülowsvej",
+                    "Skolen ved Bulowsvej",
                     "#B70B0B",
-                    "Frederiksberg Ny Skole",
-                    "#63AEFF",
-                    "Skolen på La Cours Vej",
+                    "Skolen på la Cours Vej",
                     "#007056",
-                    "#ffffff"
-                ]
-            },
-            {
-                "name": "fill-opacity",
-                "value": 0.5
-            },
-            {
-                "name": "fill-outline-color",
-                "value": "black"
-            }
-        ],
-        "layout":[],
-        "symbols": {
-            "type": "dynamic",
-            "minZoom": 14,
-            "maxZoom": 22,
-            "textProperty":"skolenavn",
-            "paint": [
-                {
-                    "name": "text-halo-blur",
-                    "value": 0
-                },
-                {
-                    "name": "text-halo-color",
-                    "value": "white"
-                },
-                {
-                    "name": "text-halo-width",
-                    "value": 2
-                }
-            ],
-            "layout": [
-                {
-                    "name": "text-field",
-                    "value": "{skolenavn}"
-                },
-                {
-                    "name": "text-anchor",
-                    "value": "bottom-left"
-                },
-                {
-                    "name": "text-offset",
-                    "value": [
-                        0.5,
-                        0
-                    ]
-                }
-            ]
-        }
-    },
-    "Skoledistrikter 6.-9. klasse": {
-        "type": "fill",
-        "paint": [
-            {
-                "name": "fill-color",
-                "value": [
-                    "match",
-                    [
-                        "get",
-                        "skolenavn"
-                    ],
-                    "Lindevangskolen",
-                    "#033F88",
-                    "Søndermarkskolen",
-                    "#B7138D",
-                    "Frederiksberg Rådhushal",
-                    "#b1d6ff",
-                    "Skolen ved Søerne",
-                    "#FF9F48",
-                    "Skolen på Duevej",
-                    "#581577",
-                    "Ny Hollænderskolen",
-                    "#009932",
-                    "Bülowsvejhallen",
-                    "#B70B0B",
-                    "Skolen på Nyelandsvej",
-                    "#A4C432",
-                    "Skolen ved Bülowsvej",
-                    "#FFC107",
-                    "Frederiksberg Ny Skole",
-                    "#FF5722",
-                    "Skolen på La Cours Vej",
-                    "#007056",
-                    "#ffffff"
+                    "Skolen på Grundtvigsvej",
+                    "#63AEFF"
                 ]
             },
             {
