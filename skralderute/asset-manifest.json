@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/puma/static/css/main.c7bcf1cd.chunk.css",
+    "main.js": "/puma/static/js/main.9c07db0a.chunk.js",
+    "main.js.map": "/puma/static/js/main.9c07db0a.chunk.js.map",
+    "runtime-main.js": "/puma/static/js/runtime-main.593fdc6d.js",
+    "runtime-main.js.map": "/puma/static/js/runtime-main.593fdc6d.js.map",
+    "static/css/2.e18b1f46.chunk.css": "/puma/static/css/2.e18b1f46.chunk.css",
+    "static/js/2.9539748b.chunk.js": "/puma/static/js/2.9539748b.chunk.js",
+    "static/js/2.9539748b.chunk.js.map": "/puma/static/js/2.9539748b.chunk.js.map",
+    "index.html": "/puma/index.html",
+    "precache-manifest.181bc7e2d0b2096aba750fb3841c17eb.js": "/puma/precache-manifest.181bc7e2d0b2096aba750fb3841c17eb.js",
+    "service-worker.js": "/puma/service-worker.js",
+    "static/css/2.e18b1f46.chunk.css.map": "/puma/static/css/2.e18b1f46.chunk.css.map",
+    "static/css/main.c7bcf1cd.chunk.css.map": "/puma/static/css/main.c7bcf1cd.chunk.css.map",
+    "static/js/2.9539748b.chunk.js.LICENSE": "/puma/static/js/2.9539748b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.593fdc6d.js",
+    "static/css/2.e18b1f46.chunk.css",
+    "static/js/2.9539748b.chunk.js",
+    "static/css/main.c7bcf1cd.chunk.css",
+    "static/js/main.9c07db0a.chunk.js"
+  ]
+}
