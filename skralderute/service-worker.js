@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/skralderute/precache-manifest.58892436e624b41789d3775d8c6c26f1.js"
+  "/skralderute/precache-manifest.431f6719b87bdffa9f9e8a7c960d64b8.js"
 );
 
 self.addEventListener('message', (event) => {

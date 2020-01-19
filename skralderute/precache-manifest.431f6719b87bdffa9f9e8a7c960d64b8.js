@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f887c21e1c046069e8958bb9c119454",
+    "revision": "ac5ad12b351dd1472bb5d545b2547ccc",
     "url": "/skralderute/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skralderute/static/css/2.e18b1f46.chunk.css"
   },
   {
-    "revision": "a52b6598d008b46c77bd",
+    "revision": "95aff56b15dcb4c8a56b",
     "url": "/skralderute/static/css/main.c7bcf1cd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skralderute/static/js/2.9539748b.chunk.js.LICENSE"
   },
   {
-    "revision": "a52b6598d008b46c77bd",
-    "url": "/skralderute/static/js/main.13f9dc32.chunk.js"
+    "revision": "95aff56b15dcb4c8a56b",
+    "url": "/skralderute/static/js/main.57d11433.chunk.js"
   },
   {
     "revision": "5eb69053e487a502f2da",
