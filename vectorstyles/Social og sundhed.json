@@ -130,7 +130,7 @@
         "paint": [
             {
                 "name": "circle-color",
-                "value": 'red'
+                "value": "red"
             },
             {
                 "name": "circle-radius",
