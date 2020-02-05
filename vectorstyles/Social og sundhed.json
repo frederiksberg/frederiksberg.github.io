@@ -130,18 +130,7 @@
         "paint": [
             {
                 "name": "circle-color",
-                "value": [
-                    "match",
-                    [
-                        "get",
-                        "case"
-                    ],
-                    "Handicapvenlige: Nej",
-                    "#549CE6",
-                    "Handicapvenlige: Ja",
-                    "#40B365",
-                    "#ffffff"
-                ]
+                "value": 'red'
             },
             {
                 "name": "circle-radius",
