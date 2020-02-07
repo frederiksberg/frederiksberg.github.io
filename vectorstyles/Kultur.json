@@ -278,7 +278,7 @@
                     "match",
                     [
                         "get",
-                        "case"
+                        "handicapvenlig"
                     ],
                     "Handicapvenlig Nej",
                     "#549CE6",
